@@ -8,7 +8,7 @@ For example, the diagram below was generated from the text ID 7 with the zero-sh
 diagram_[7]refined_0SHOTo3.png
 ```
 
-The diagrams are licensed under CC-BY-4.0 with an exception for the diagrams (ID 25) based on the text by Olivier Bonaventure. 2011. Computer Networking : Principles, Protocols and Practice https://github.com/obonaventure/cnp3/ licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ 
+The diagrams are licensed under CC-BY-4.0 except for the diagrams (ID 25) based on the text by Olivier Bonaventure. 2011. Computer Networking : Principles, Protocols and Practice https://github.com/obonaventure/cnp3/ licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ 
 
 [Creative Commons Attribution 4.0 International License][cc-by].
 
@@ -42,6 +42,11 @@ expert_eval/evaluation_data_raters.csv
 The diagrams are in 
 ```text
 generated_content/
+```
+
+The diagrams used in automated evaluation are in 
+```text
+aut_eval/
 ```
 
 ## Sources

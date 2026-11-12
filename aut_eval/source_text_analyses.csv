@@ -1,0 +1,1039 @@
+texts,analyses,example_chosen,ids,rst_reconst,bert_p,bert_R,bert_F1
+"Domain Name Service (DNS) servers are a particular server type that help the internet function. The TCP/IP-protocol functions based on IP-addresses, while server addresses in URIs can be written as text. When a request to an URI is made, the server address in the URI needs to be first resolved into an IP address. If the server address is an IP address, no resolution needs to be made. Otherwise, the address needs to be looked up. Computers typically have a cache (a temporary memory) that contains recent visits to websites, storing both the text-based address and the corresponding IP address. If the address is within the cache, the resolution of the IP address happens locally on the computer. If the address is not in the cache, however, the address needs to be resolved using an external service. Here, DNS servers come into play. Whenever an address needs to be resolved, the computer sends a message to a DNS server asking for a corresponding IP address. Once the DNS server returns the IP address, the computer stores the IP address into its cache, and then continues by sending the message to the actual IP address. ","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. [Domain Name Service (DNS) servers are a particular server type that help the internet function.]
+2. [The TCP/IP-protocol functions based on IP-addresses,]
+3. [while server addresses in URIs can be written as text.]
+4. [When a request to an URI is made,]
+5. [the server address in the URI needs to be first resolved into an IP address.]
+6. [If the server address is an IP address,]
+7. [no resolution needs to be made.]
+8. [Otherwise, the address needs to be looked up.]
+9. [Computers typically have a cache (a temporary memory) that contains recent visits to websites,]
+10. [storing both the text-based address and the corresponding IP address.]
+11. [If the address is within the cache,]
+12. [the resolution of the IP address happens locally on the computer.]
+13. [If the address is not in the cache,]
+14. [however, the address needs to be resolved]
+15. [using an external service.]
+16. [Here, DNS servers come into play.]
+17. [Whenever an address needs to be resolved,]
+18. [the computer sends a message to a DNS server]
+19. [asking for a corresponding IP address.]
+20. [Once the DNS server returns the IP address,]
+21. [the computer stores the IP address into its cache,]
+22. [and then continues]
+23. [by sending the message to the actual IP address.]
+
+RST tree (bottom-up):
+1. Contrast: N2 + N3 → [2–3]
+2. Circumstance: S4 + N5 → [4–5]
+3. Cause: S[2–3] + N[4–5] → [2–5]
+4. Condition: S6 + N7 → [6–7]
+5. Contrast: N[6–7] + N8 → [6–8]
+6. Background: S[2–5] + N[6–8] → [2–8]
+7. E-Elaboration: N9 + S10 → [9–10]
+8. Condition: S11 + N12 → [11–12]
+9. Means: N14 + S15 → [14–15]
+10. Purpose: N18 + S19 → [18–19]
+11. Circumstance: S17 + N[18–19] → [17–19]
+12. Means: N22 + S23 → [22–23]
+13. Sequence: N21 + N[22–23] → [21–23]
+14. Circumstance: S20 + N[21–23] → [20–23]
+15. Sequence: N[17–19] + N[20–23] → [17–23]
+16. Preparation: S16 + N[17–23] → [16–23]
+17. Solutionhood: S[14–15] + N[16–23] → [14–23]
+18. Condition: S13 + N[14–23] → [13–23]
+19. Contrast: N[11–12] + N[13–23] → [11–23]
+20. Background: S[9–10] + N[11–23] → [9–23]
+21. Background: S[2–8] + N[9–23] → [2–23]
+22. Background: S1 + N[2–23] → [1–23] (root)",1,1,"Domain Name Service (DNS) servers are a particular server type that help the internet function. The TCP/IP-protocol functions based on IP-addresses, while server addresses in URIs can be written as text. When a request to an URI is made, the server address in the URI needs to be first resolved into an IP address. If the server address is an IP address, no resolution needs to be made. Otherwise, the address needs to be looked up.
+
+Computers typically have a cache (a temporary memory) that contains recent visits to websites, storing both the text-based address and the corresponding IP address. If the address is within the cache, the resolution of the IP address happens locally on the computer. If the address is not in the cache, however, the address needs to be resolved using an external service. Here, DNS servers come into play. Whenever an address needs to be resolved, the computer sends a message to a DNS server asking for a corresponding IP address. Once the DNS server returns the IP address, the computer stores the IP address into its cache, and then continues by sending the message to the actual IP address.",0.976418495178223,0.980394244194031,0.978442788124085
+We will need to go through the following steps since the kernel cannot directly access the main memory of the CPU (it can only access the memory of the GPU): Allocate some GPU memory for the input and output. Copy the input from the CPU memory to the GPU memory. Launch the kernel. Copy the result back from the GPU memory to the CPU memory. Release the GPU memory that we allocated.,"Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. We will need to go through the following steps
+2. since the kernel cannot directly access the main memory of the CPU
+3. it can only access the memory of the GPU.
+4. Allocate some GPU memory for the input and output.
+5. Copy the input from the CPU memory to the GPU memory.
+6. Launch the kernel.
+7. Copy the result back from the GPU memory to the CPU memory.
+8. Release the GPU memory that we allocated.
+
+RST tree:
+[Preparation
+  [S: 1–3
+    [Cause
+      [N: 1]
+      [S: 2–3
+        [Elaboration
+          [N: 2]
+          [S: 3]]]]]
+  [N: 4–8
+    [Sequence
+      [N: 4]
+      [N: 5]
+      [N: 6]
+      [N: 7]
+      [N: 8]]]]",2,2,"We will need to go through the following steps since the kernel cannot directly access the main memory of the CPU; it can only access the memory of the GPU:
+
+Allocate some GPU memory for the input and output.  
+Copy the input from the CPU memory to the GPU memory.  
+Launch the kernel.  
+Copy the result back from the GPU memory to the CPU memory.  
+Release the GPU memory that we allocated.",0.774821877479553,0.901264667510986,0.837021708488464
+"
+There are a number of HTTP-protocol request types.
+A web page, or any associated content of a page such as an image, is practically always retrieved using a GET request.
+Similarly, information is practically always sent using the POST request. 
+DELETE: asks for removing of a resource
+HEAD: asks for the header information related to a resource, but not the resource itself (can be e.g. used for checking if an already downloaded resource has changed)
+OPTIONS: requests information about the possible options available regarding a request (e.g. could the resource be removed with a request)","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. [There are a number of HTTP-protocol request types.]
+2. [A web page, or any associated content of a page such as an image, is practically always retrieved using a GET request.]
+3. [Similarly, information is practically always sent using the POST request.]
+4. [DELETE: asks for removing of a resource]
+5. [HEAD: asks for the header information related to a resource, but not the resource itself]
+6. [(can be e.g. used for checking if an already downloaded resource has changed)]
+7. [OPTIONS: requests information about the possible options available regarding a request]
+8. [(e.g. could the resource be removed with a request)]
+
+RST tree:
+- Preparation
+  - S: EDU 1
+  - N: List
+    - N: EDU 2
+    - N: EDU 3
+    - N: EDU 4
+    - N: Elaboration
+      - N: EDU 5
+      - S: EDU 6
+    - N: Elaboration
+      - N: EDU 7
+      - S: EDU 8",0,3,"There are a number of HTTP-protocol request types. A web page, or any associated content of a page such as an image, is practically always retrieved using a GET request. Similarly, information is practically always sent using the POST request. DELETE: asks for removing of a resource. HEAD: asks for the header information related to a resource, but not the resource itself (can be e.g. used for checking if an already downloaded resource has changed). OPTIONS: requests information about the possible options available regarding a request (e.g. could the resource be removed with a request).",0.922327160835266,0.878258943557739,0.900312542915344
+"HTTP (HyperText Transfer Protocol) is the protocol used by browsers and servers for requests and responses. It built on top of the TCP/IP-protocol, which handles the underlying concerns such as (1) dividing requests into packets, (2) ensuring that packets arrive at the correct destination, (3) making sure that the content of the packets is correct, or (4) making sure that the message that the packets jointly build is correctly reconstructed.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. HTTP (HyperText Transfer Protocol) is the protocol used by browsers and servers for requests and responses.
+2. It built on top of the TCP/IP-protocol,
+3. which handles the underlying concerns
+4. such as (1) dividing requests into packets,
+5. (2) ensuring that packets arrive at the correct destination,
+6. (3) making sure that the content of the packets is correct,
+7. or (4) making sure that the message that the packets jointly build is correctly reconstructed.
+
+RST tree:
+- Background: S[1], N[2–7]
+  - E-Elaboration: N[2], S[3–7]
+    - E-Elaboration: N[3], S[4–7]
+      - Conjunction: N[4], N[5], N[6], N[7]",0,4,"HTTP (HyperText Transfer Protocol) is the protocol used by browsers and servers for requests and responses. It built on top of the TCP/IP-protocol, which handles the underlying concerns such as (1) dividing requests into packets, (2) ensuring that packets arrive at the correct destination, (3) making sure that the content of the packets is correct, or (4) making sure that the message that the packets jointly build is correctly reconstructed.",1,1,1
+There are four essential components of computational thinking. Decomposition (also called factoring) means breaking a problem down into more manageable parts so that solutions can be found for each. Pattern recognition is looking for similarities within a problem or with other problems so that past solutions or knowledge can be re-used. Algorithms mean developing step-by-step solutions to each part of the problem. Abstraction is generalising (abstracting) the important detail to make a solution reusable.,"Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. There are four essential components of computational thinking.
+2. Decomposition (also called factoring) means breaking a problem down into more manageable parts
+3. so that solutions can be found for each.
+4. Pattern recognition is looking for similarities within a problem or with other problems
+5. so that past solutions or knowledge can be re-used.
+6. Algorithms mean developing step-by-step solutions to each part of the problem.
+7. Abstraction is generalising (abstracting) the important detail
+8. to make a solution reusable.
+
+RST tree:
+[Preparation
+  [S: 1]
+  [N: List
+    [N: Purpose [N: 2] [S: 3]]
+    [N: Purpose [N: 4] [S: 5]]
+    [N: 6]
+    [N: Purpose [N: 7] [S: 8]]
+  ]
+]",0,5,There are four essential components of computational thinking. Decomposition (also called factoring) means breaking a problem down into more manageable parts so that solutions can be found for each. Pattern recognition is looking for similarities within a problem or with other problems so that past solutions or knowledge can be re-used. Algorithms mean developing step-by-step solutions to each part of the problem. Abstraction is generalising (abstracting) the important detail to make a solution reusable.,1,1,1
+"Steps in the data combination process
+1. Create a new copy of the main data file with today’s date as part of the file name.
+2. Move the previous version of the main data file to cloud storage.
+3. Save all the new data files individually to local storage with the device ID of each as part of the file names.
+4. Create a new weekly data file digest into which the daily digests from the different devices will be imported.
+5. Import each daily digest to that data file with an append command.
+6. Ensure that the device ID relating to each file’s data is written into a separate column.
+7. Append the weekly digest to the newly renamed main data file.
+8. Verify that no data is missing. For example, in OpenRefine, using Facet by Blank on the relevant data fields could be one way to verify that no data is missing.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. Create a new copy of the main data file with today’s date as part of the file name.
+2. Move the previous version of the main data file to cloud storage.
+3. Save all the new data files individually to local storage with the device ID of each as part of the file names.
+4. Create a new weekly data file digest into which the daily digests from the different devices will be imported.
+5. Import each daily digest to that data file with an append command.
+6. Ensure that the device ID relating to each file’s data is written into a separate column.
+7. Append the weekly digest to the newly renamed main data file.
+8. Verify that no data is missing.
+9. For example, in OpenRefine, using Facet by Blank on the relevant data fields could be one way to verify that no data is missing.
+
+RST tree:
+[Sequence
+  [N 1]
+  [N 2]
+  [N 3]
+  [N 4]
+  [N 5]
+  [N 6]
+  [N 7]
+  [N [Means [N 8] [S 9]]]
+]
+
+The heading “Steps in the data combination process” is not an EDU because it contains no verb.",2,6,"Create a new copy of the main data file with today’s date as part of the file name. Move the previous version of the main data file to cloud storage. Save all the new data files individually to local storage with the device ID of each as part of the file names. Create a new weekly data file digest into which the daily digests from the different devices will be imported. Import each daily digest to that data file with an append command. Ensure that the device ID relating to each file’s data is written into a separate column. Append the weekly digest to the newly renamed main data file. Verify that no data is missing, for example, in OpenRefine, using Facet by Blank on the relevant data fields could be one way to verify that no data is missing.",0.857471227645874,0.76130747795105,0.808963418006897
+"Write a Python program that checks the age of a user to determine if they will receive a youth or adult library card. The program should: store age in a variable, use an if statement to check if the age is 16 or older. If true, print ‘You are eligible for an adult library card.’, if else, print ‘You are eligible for a youth library card.’ ","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[1. ""Write a Python program that checks the age of a user"",
+ 2. ""to determine if they will receive a youth or adult library card."",
+ 3. ""The program should store age in a variable,"",
+ 4. ""use an if statement"",
+ 5. ""to check if the age is 16 or older."",
+ 6. ""If true, print ‘You are eligible for an adult library card.’,"",
+ 7. ""if else, print ‘You are eligible for a youth library card.’""]
+
+RST tree:
+[Elaboration,
+  [N, [Purpose,
+        [N, EDU 1],
+        [S, EDU 2]]],
+  [S, [Sequence,
+        [N, EDU 3],
+        [N, [Purpose,
+              [N, EDU 4],
+              [S, EDU 5]]],
+        [N, [Contrast,
+              [N, EDU 6],
+              [N, EDU 7]]]]]]",3,7,"Write a Python program that checks the age of a user to determine if they will receive a youth or adult library card. The program should store age in a variable, use an if statement to check if the age is 16 or older. If true, print ‘You are eligible for an adult library card.’, if else, print ‘You are eligible for a youth library card.’",0.984618723392487,0.975217938423157,0.979946672916412
+"Write a script that loops through the gapminder data by continent and prints out whether the mean life expectancy is smaller or larger than 50 years.
+Step 1: We want to make sure we can extract all the unique values of the continent vector.
+Step 2: We also need to loop over each of these continents and calculate the average life expectancy for each subset of data. We can do that as follows: 1. Loop over each of the unique values of continent. 2. For each value of continent, create a temporary variable storing that subset 3.Return the calculated life expectancy to the user by printing the output.
+Step 3: The exercise only wants the output printed if the average life expectancy is less than 50 or greater than 50. So we need to add an if() condition before printing, which evaluates whether the calculated average life expectancy is above or below a threshold, and prints an output conditional on the result. We need to amend (3) from above: 3a. If the calculated life expectancy is less than some threshold (50 years), return the continent and a statement that life expectancy is less than threshold, otherwise return the continent and a statement that life expectancy is greater than threshold","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. Write a script that loops through the gapminder data by continent
+2. and prints out whether the mean life expectancy is smaller or larger than 50 years.
+3. Step 1: We want to make sure we can extract all the unique values of the continent vector.
+4. Step 2: We also need to loop over each of these continents
+5. and calculate the average life expectancy for each subset of data.
+6. We can do that as follows:
+7. Loop over each of the unique values of continent.
+8. For each value of continent, create a temporary variable storing that subset.
+9. Return the calculated life expectancy to the user
+10. by printing the output.
+11. Step 3: The exercise only wants the output printed
+12. if the average life expectancy is less than 50 or greater than 50.
+13. So we need to add an if() condition
+14. before printing,
+15. which evaluates whether the calculated average life expectancy is above or below a threshold,
+16. and prints an output conditional on the result.
+17. We need to amend (3) from above:
+18. If the calculated life expectancy is less than some threshold (50 years),
+19. return the continent and a statement that life expectancy is less than threshold,
+20. otherwise return the continent and a statement that life expectancy is greater than threshold.
+
+RST tree (relation, role, child):
+[""Solutionhood"",
+  [""S"", [""Conjunction"", [""N"", 1], [""N"", 2]]],
+  [""N"", [""Sequence"",
+    [""N"", 3],
+    [""N"", [""Elaboration"",
+      [""N"", [""Conjunction"", [""N"", 4], [""N"", 5]]],
+      [""S"", [""Preparation"",
+        [""S"", 6],
+        [""N"", [""Sequence"",
+          [""N"", 7],
+          [""N"", 8],
+          [""N"", [""Means"", [""N"", 9], [""S"", 10]]]
+        ]]
+      ]]
+    ]],
+    [""N"", [""Background"",
+      [""S"", [""Cause"",
+        [""S"", [""Condition"", [""N"", 11], [""S"", 12]]],
+        [""N"", [""E-Elaboration"",
+          [""N"", [""Circumstance"", [""N"", 13], [""S"", 14]]],
+          [""S"", [""Conjunction"", [""N"", 15], [""N"", 16]]]
+        ]]
+      ]],
+      [""N"", [""Preparation"",
+        [""S"", 17],
+        [""N"", [""Otherwise"",
+          [""S"", [""Condition"", [""S"", 18], [""N"", 19]]],
+          [""N"", 20]
+        ]]
+      ]]
+    ]]
+  ]]
+]",1,8,"Write a script that loops through the gapminder data by continent and prints out whether the mean life expectancy is smaller or larger than 50 years.
+
+Step 1: We want to make sure we can extract all the unique values of the continent vector. Step 2: We also need to loop over each of these continents and calculate the average life expectancy for each subset of data. We can do that as follows: Loop over each of the unique values of continent. For each value of continent, create a temporary variable storing that subset. Return the calculated life expectancy to the user by printing the output.
+
+Step 3: The exercise only wants the output printed if the average life expectancy is less than 50 or greater than 50. So we need to add an if() condition before printing, which evaluates whether the calculated average life expectancy is above or below a threshold, and prints an output conditional on the result. We need to amend (3) from above: If the calculated life expectancy is less than some threshold (50 years), return the continent and a statement that life expectancy is less than threshold, otherwise return the continent and a statement that life expectancy is greater than threshold.",0.946210086345673,0.928118884563446,0.937248587608337
+"One of your collaborators prefers to see the distributions of the larger vectors as a histogram instead of as a boxplot. In order to choose between a histogram and a boxplot we will edit the function plot_dist and add an additional argument use_boxplot. By default we will set use_boxplot to TRUE which will create a boxplot when the vector is longer than threshold. When use_boxplot is set to FALSE, plot_dist will instead plot a histogram for the larger vectors. If the length of the vector is shorter than threshold, plot_dist will create a stripchart.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs
+1. [One of your collaborators prefers to see the distributions of the larger vectors as a histogram instead of as a boxplot.]
+2. [In order to choose between a histogram and a boxplot]
+3. [we will edit the function plot_dist]
+4. [and add an additional argument use_boxplot.]
+5. [By default we will set use_boxplot to TRUE which will create a boxplot]
+6. [when the vector is longer than threshold.]
+7. [When use_boxplot is set to FALSE,]
+8. [plot_dist will instead plot a histogram for the larger vectors.]
+9. [If the length of the vector is shorter than threshold,]
+10. [plot_dist will create a stripchart.]
+
+RST tree
+- Background
+  - S: [1–4]
+    - Motivation
+      - S: [1]
+      - N: [2–4]
+        - Purpose
+          - S: [2]
+          - N: [3–4]
+            - Conjunction
+              - N: [3]
+              - N: [4]
+  - N: [5–10]
+    - Contrast
+      - N: [5–8]
+        - Contrast
+          - N: [5–6]
+            - Condition
+              - N: [5]
+              - S: [6]
+          - N: [7–8]
+            - Condition
+              - S: [7]
+              - N: [8]
+      - N: [9–10]
+        - Condition
+          - S: [9]
+          - N: [10]",3,9,"One of your collaborators prefers to see the distributions of the larger vectors as a histogram instead of as a boxplot. In order to choose between a histogram and a boxplot, we will edit the function plot_dist and add an additional argument use_boxplot. By default we will set use_boxplot to TRUE, which will create a boxplot when the vector is longer than threshold. When use_boxplot is set to FALSE, plot_dist will instead plot a histogram for the larger vectors. If the length of the vector is shorter than threshold, plot_dist will create a stripchart.",0.985551714897156,0.990413248538971,0.988001346588135
+"All computers are started simultaneously, and they follow algorithm A synchronously in parallel. In each synchronous communication round, all the computers in parallel
+(1) send a message to each of their ports,
+(2) wait while the messages are propagated along the communication channels,
+(3) receive a message from each of their ports, and
+(4) update their own state.
+","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. All computers are started simultaneously,
+2. and they follow algorithm A synchronously in parallel.
+3. In each synchronous communication round, all the computers in parallel send a message to each of their ports,
+4. wait
+5. while the messages are propagated along the communication channels,
+6. receive a message from each of their ports,
+7. and update their own state.
+
+RST tree:
+[Background
+  [S: Sequence
+    [N: 1]
+    [N: 2]]
+  [N: Sequence
+    [N: 3]
+    [N: Circumstance
+      [N: 4]
+      [S: 5]]
+    [N: 6]
+    [N: 7]]]",1,10,"All computers are started simultaneously, and they follow algorithm A synchronously in parallel. In each synchronous communication round, all the computers in parallel send a message to each of their ports, wait while the messages are propagated along the communication channels, receive a message from each of their ports, and update their own state.",0.843386352062225,0.648431122303009,0.743165254592896
+"Informally, the algorithm proceeds as follows. For each node u, its state s(u) alternates between 1 and 0, initially, s(u) ← 1 and c(u) ← ⊥:
+When s(u) = 1, the node receives the set of messages M(u), it then decides with probability 0.5 to be passive and set c(u) = ⊥ or to be active and pick a random color c(u) ∈ F(u), where F(u) = C(u)\M(u) is the set of free colors.. Next, it sets s(u) ← 0. 
+When s(u) = 0, the node receives the set of messages M(u), it then verifies its choice. If the current color c(u) conflicts with one of the neighbors (c(u) ∈ M(u)), we go back to the initial state s(u) ← 1 and c(u) ← ⊥. However, if we were lucky and managed to pick a color that does not conflict with any of our neighbors, we keep the current value of c(u) and switch to the stopping state s(u) = 1 and c(u) ̸= ⊥.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs
+
+1. [Informally, the algorithm proceeds as follows.]
+2. [For each node u, its state s(u) alternates between 1 and 0, initially, s(u) ← 1 and c(u) ← ⊥:]
+3. [When s(u) = 1,]
+4. [the node receives the set of messages M(u),]
+5. [it then decides with probability 0.5 to be passive and set c(u) = ⊥ or to be active and pick a random color c(u) ∈ F(u),]
+6. [where F(u) = C(u)\M(u) is the set of free colors.]
+7. [Next, it sets s(u) ← 0.]
+8. [When s(u) = 0,]
+9. [the node receives the set of messages M(u),]
+10. [it then verifies its choice.]
+11. [If the current color c(u) conflicts with one of the neighbors (c(u) ∈ M(u)),]
+12. [we go back to the initial state s(u) ← 1 and c(u) ← ⊥.]
+13. [However, if we were lucky]
+14. [and managed to pick a color that does not conflict with any of our neighbors,]
+15. [we keep the current value of c(u)]
+16. [and switch to the stopping state s(u) = 1 and c(u) ≠ ⊥.]
+
+RST tree
+
+- Preparation(S: 1, N: 2–16)
+  - Background(S: 2, N: 3–16)
+    - Sequence(N: 3–7, N: 8–16)
+      - Circumstance(S: 3, N: 4–7)
+        - Sequence(N: 4, N: 5–6, N: 7)
+          - E-Elaboration(N: 5, S: 6)
+      - Circumstance(S: 8, N: 9–16)
+        - Sequence(N: 9, N: 10–16)
+          - Preparation(S: 10, N: 11–16)
+            - Contrast(N: 11–12, N: 13–16)
+              - Condition(S: 11, N: 12)
+              - Condition(S: 13–14, N: 15–16)
+                - Conjunction(N: 13, N: 14)
+                - Conjunction(N: 15, N: 16)",1,11,"Informally, the algorithm proceeds as follows. For each node u, its state s(u) alternates between 1 and 0, initially, s(u) ← 1 and c(u) ← ⊥:
+
+When s(u) = 1, the node receives the set of messages M(u), it then decides with probability 0.5 to be passive and set c(u) = ⊥ or to be active and pick a random color c(u) ∈ F(u), where F(u) = C(u)\M(u) is the set of free colors. Next, it sets s(u) ← 0.
+
+When s(u) = 0, the node receives the set of messages M(u), it then verifies its choice. If the current color c(u) conflicts with one of the neighbors (c(u) ∈ M(u)), we go back to the initial state s(u) ← 1 and c(u) ← ⊥. However, if we were lucky and managed to pick a color that does not conflict with any of our neighbors, we keep the current value of c(u) and switch to the stopping state s(u) = 1 and c(u) ≠ ⊥.",0.966860294342041,0.957455635070801,0.962217271327972
+"The filesystem looks like an upside down tree. The topmost directory is the root directory that holds everything else. We refer to it using a slash character, /. Inside the root directory are several other directories: bin (which is where some built-in programs are stored), data (for miscellaneous data files), Users (where users’ personal directories are located), tmp (for temporary files that don’t need to be stored long-term).
+
+","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[1] The filesystem looks like an upside down tree.
+[2] The topmost directory is the root directory that holds everything else.
+[3] We refer to it.
+[4] using a slash character, /.
+[5] Inside the root directory are several other directories: bin, data (for miscellaneous data files), Users, tmp (for temporary files that don’t need to be stored long-term). [Discontinuous matrix EDU around the embedded parentheticals in 6–7.]
+[6] which is where some built-in programs are stored
+[7] where users’ personal directories are located
+
+RST tree:
+[Background,
+  [S: Elaboration,
+    [N: 1],
+    [S: E-Elaboration,
+      [N: 2],
+      [S: Means,
+        [N: 3],
+        [S: 4]]]],
+  [N: E-Elaboration,
+    [N: 5],
+    [S: 6],
+    [S: 7]]]",0,12,"The filesystem looks like an upside down tree. The topmost directory is the root directory that holds everything else. We refer to it using a slash character, /. Inside the root directory are several other directories: bin, which is where some built-in programs are stored, data (for miscellaneous data files), Users, where users’ personal directories are located, tmp (for temporary files that don’t need to be stored long-term).",0.980161428451538,0.980176270008087,0.980203449726105
+"Task: Write Two New Rules
+1 Write a new rule for ‘last.dat’, created from ‘books/last.txt’.
+2 Update the ‘dats’ rule with this target.
+3 Write a new rule for ‘results.txt’, which creates the summary table. The rule needs to depend upon each of the three ‘.dat’ files and invoke the action ‘python testzipf.py abyss.dat isles.dat last.dat > results.txt’.
+4 Put this rule at the top of the ‘Makefile’ so that it is the default target.
+5 Update ‘clean’ so that it removes ‘results.txt’.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. “Task: Write Two New Rules”
+2. “Write a new rule for ‘last.dat’,”
+3. “created from ‘books/last.txt’.”
+4. “Update the ‘dats’ rule with this target.”
+5. “Write a new rule for ‘results.txt’,”
+6. “which creates the summary table.”
+7. “The rule needs to depend upon each of the three ‘.dat’ files”
+8. “and invoke the action ‘python testzipf.py abyss.dat isles.dat last.dat > results.txt’.”
+9. “Put this rule at the top of the ‘Makefile’”
+10. “so that it is the default target.”
+11. “Update ‘clean’”
+12. “so that it removes ‘results.txt’.”
+
+RST tree:
+- Preparation
+  - S: EDU 1
+  - N: Sequence
+    - N: E-Elaboration
+      - N: EDU 2
+      - S: EDU 3
+    - N: EDU 4
+    - N: Elaboration
+      - N: E-Elaboration
+        - N: EDU 5
+        - S: EDU 6
+      - S: Conjunction
+        - N: EDU 7
+        - N: EDU 8
+    - N: Purpose
+      - N: EDU 9
+      - S: EDU 10
+    - N: Purpose
+      - N: EDU 11
+      - S: EDU 12",2,13,"Task: Write Two New Rules
+
+Write a new rule for ‘last.dat’, created from ‘books/last.txt’. Update the ‘dats’ rule with this target. Write a new rule for ‘results.txt’, which creates the summary table. The rule needs to depend upon each of the three ‘.dat’ files and invoke the action ‘python testzipf.py abyss.dat isles.dat last.dat > results.txt’. Put this rule at the top of the ‘Makefile’ so that it is the default target. Update ‘clean’ so that it removes ‘results.txt’.",0.931321501731873,0.874923348426819,0.903038799762726
+"The 'await' block consists of three parts. The first part is given an expression that evaluates to a promise that is awaited. The content of the first part is shown when the promise has not yet been resolved. The second part is ':then', which has content that is shown if the promise successfully resolves. The third part is ':catch', which has content that is shown if there is an error when resolving the promise.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. The 'await' block consists of three parts.
+2. The first part is given an expression that evaluates to a promise that is awaited.
+3. The content of the first part is shown
+4. when the promise has not yet been resolved.
+5. The second part is ':then',
+6. which has content that is shown
+7. if the promise successfully resolves.
+8. The third part is ':catch',
+9. which has content that is shown
+10. if there is an error
+11. when resolving the promise.
+
+RST tree:
+- Background
+  - S: [1]
+  - N: List
+    - N: List
+      - N: [2]
+      - N: Circumstance
+        - N: [3]
+        - S: [4]
+    - N: E-Elaboration
+      - N: [5]
+      - S: Condition
+        - N: [6]
+        - S: [7]
+    - N: E-Elaboration
+      - N: [8]
+      - S: Condition
+        - N: [9]
+        - S: Circumstance
+          - N: [10]
+          - S: [11]",0,14,"The 'await' block consists of three parts. The first part is given an expression that evaluates to a promise that is awaited. The content of the first part is shown when the promise has not yet been resolved. The second part is ':then', which has content that is shown if the promise successfully resolves. The third part is ':catch', which has content that is shown if there is an error when resolving the promise.",1,1,1
+"How to check your data for factors
+How to check if your version of R has automatically created factors and convert them to ‘character’ format:
+1. Check the data types of your input by typing str(cats)
+2. In the output, look at the three-letter codes after the colons: If you see only ‘num’ and ‘chr’, the data type is ‘character’ and no further action is needed. If you find ‘fct’ in the output, continue to Step 3.
+3. Prevent R from automatically creating “factor” data by the following code: ‘options(stringsAsFactors = FALSE)’. 
+4. Re-read the cats table for the change to take effect.
+5. You’re done!
+","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[
+  [1, ""How to check your data for factors""],
+  [2, ""How to check if your version of R has automatically created factors""],
+  [3, ""and convert them to ‘character’ format:""],
+  [4, ""1. Check the data types of your input""],
+  [5, ""by typing str(cats).""],
+  [6, ""2. In the output, look at the three-letter codes after the colons:""],
+  [7, ""If you see only ‘num’ and ‘chr’,""],
+  [8, ""the data type is ‘character’""],
+  [9, ""and no further action is needed.""],
+  [10, ""If you find ‘fct’ in the output,""],
+  [11, ""continue to Step 3.""],
+  [12, ""3. Prevent R from automatically creating ‘factor’ data by the following code: ‘options(stringsAsFactors = FALSE)’.""],
+  [13, ""4. Re-read the cats table""],
+  [14, ""for the change to take effect.""],
+  [15, ""5. You’re done!""]
+]
+
+RST tree:
+[""Preparation"",
+  [""S"", [""Preparation"",
+    [""S"", 1],
+    [""N"", [""Conjunction"", [""N"", 2], [""N"", 3]]]
+  ]],
+  [""N"", [""Cause"",
+    [""S"", [""Sequence"",
+      [""N"", [""Means"", [""N"", 4], [""S"", 5]]],
+      [""N"", [""Elaboration"",
+        [""N"", 6],
+        [""S"", [""Contrast"",
+          [""N"", [""Condition"",
+            [""S"", 7],
+            [""N"", [""Conjunction"", [""N"", 8], [""N"", 9]]]
+          ]],
+          [""N"", [""Condition"", [""S"", 10], [""N"", 11]]]
+        ]]
+      ]],
+      [""N"", 12],
+      [""N"", [""Purpose"", [""N"", 13], [""S"", 14]]]
+    ]],
+    [""N"", 15]
+  ]]
+]",1,15,"How to check your data for factors
+
+How to check if your version of R has automatically created factors and convert them to ‘character’ format:
+
+1. Check the data types of your input by typing str(cats).
+
+2. In the output, look at the three-letter codes after the colons:
+
+If you see only ‘num’ and ‘chr’, the data type is ‘character’ and no further action is needed.
+
+If you find ‘fct’ in the output, continue to Step 3.
+
+3. Prevent R from automatically creating ‘factor’ data by the following code: ‘options(stringsAsFactors = FALSE)’.
+
+4. Re-read the cats table for the change to take effect.
+
+5. You’re done!",0.879282355308533,0.905366539955139,0.89245742559433
+"Web frameworks introduced a structured flow for handling web requests. In essence, when a request is received, it is mapped to a route, which is then processed by a controller. The controller interacts with a repository layer to perform database operations, and the resulting data is returned to the controller. The response is then formatted (e.g., as HTML or JSON) and sent back to the client.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. Web frameworks introduced a structured flow
+2. for handling web requests.
+3. In essence, when a request is received,
+4. it is mapped to a route,
+5. which is then processed by a controller.
+6. The controller interacts with a repository layer
+7. to perform database operations,
+8. and the resulting data is returned to the controller.
+9. The response is then formatted (e.g., as HTML or JSON)
+10. and sent back to the client.
+
+RST tree:
+- Background
+  - S [1–2]: Purpose
+    - N [1]
+    - S [2]
+  - N [3–10]: Sequence
+    - N [3–4]: Circumstance
+      - S [3]
+      - N [4]
+    - N [5]
+    - N [6–8]: Conjunction
+      - N [6–7]: Purpose
+        - N [6]
+        - S [7]
+      - N [8]
+    - N [9–10]: Conjunction
+      - N [9]
+      - N [10]",1,16,"Web frameworks introduced a structured flow for handling web requests. In essence, when a request is received, it is mapped to a route, which is then processed by a controller. The controller interacts with a repository layer to perform database operations, and the resulting data is returned to the controller. The response is then formatted (e.g., as HTML or JSON) and sent back to the client.",1,1,1
+"A web application that allows interacting with a database consists of three parts: a client-side application, a server-side application, and a database. The client-side application provides an user interface and has the functionality to send requests to the server-side application and to display the responses to the user. The server-side application has API endpoints that the client-side application interacts with and that provide the functionality for communicating with the database. The database, typically, is a stand-alone software that can be interacted with.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. A web application that allows interacting with a database consists of three parts: a client-side application, a server-side application, and a database.
+2. The client-side application provides an user interface
+3. and has the functionality to send requests to the server-side application and to display the responses to the user.
+4. The server-side application has API endpoints that the client-side application interacts with and that provide the functionality for communicating with the database.
+5. The database, typically, is a stand-alone software that can be interacted with.
+
+RST tree:
+[Background
+  [S: EDU 1]
+  [N: List
+    [N: Conjunction
+      [N: EDU 2]
+      [N: EDU 3]]]
+    [N: EDU 4]
+    [N: EDU 5]]]",0,17,"A web application that allows interacting with a database consists of three parts: a client-side application, a server-side application, and a database. The client-side application provides an user interface and has the functionality to send requests to the server-side application and to display the responses to the user. The server-side application has API endpoints that the client-side application interacts with and that provide the functionality for communicating with the database. The database, typically, is a stand-alone software that can be interacted with.",1,1,1
+"Cross-site scripting (XSS) is a specific type of injection attack found in web applications. In XSS, the site allows an attacker a possibility of injecting client-side scripts into the application, which are then executed on other users' computers as they access the application. 
+The starting point of an XSS attack is injecting code to the application. This can be done through, for example, a form or an API endpoint. Unlike SQL injection, XSS does not lead to the code being executed on the server, instead, it is simply stored. This results in the server compromising its users. Whenever a user requests content from the server that has the malicious code, the server responds to the request normally, by sending the content to the user. Now, when the user retrieves the content with the malicious code, the content will be processed by the browser and the code will be executed. This can, for example, lead to the browser crashing or to worse effects such as compromising content stored within the browser.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[
+  [1, ""Cross-site scripting (XSS) is a specific type of injection attack found in web applications.""],
+  [2, ""In XSS, the site allows an attacker a possibility of injecting client-side scripts into the application,""],
+  [3, ""which are then executed on other users' computers""],
+  [4, ""as they access the application.""],
+  [5, ""The starting point of an XSS attack is injecting code to the application.""],
+  [6, ""This can be done through, for example, a form or an API endpoint.""],
+  [7, ""Unlike SQL injection, XSS does not lead to the code being executed on the server,""],
+  [8, ""instead, it is simply stored.""],
+  [9, ""This results in the server compromising its users.""],
+  [10, ""Whenever a user requests content from the server that has the malicious code,""],
+  [11, ""the server responds to the request normally,""],
+  [12, ""by sending the content to the user.""],
+  [13, ""Now, when the user retrieves the content with the malicious code,""],
+  [14, ""the content will be processed by the browser""],
+  [15, ""and the code will be executed.""],
+  [16, ""This can, for example, lead to the browser crashing or to worse effects such as compromising content stored within the browser.""]
+]
+
+RST tree:
+[
+  [""Background"",
+    [""S"", [1,4],
+      [""Elaboration"",
+        [""N"", [1]],
+        [""S"", [2,4],
+          [""E-Elaboration"",
+            [""N"", [2]],
+            [""S"", [3,4],
+              [""Circumstance"",
+                [""N"", [3]],
+                [""S"", [4]]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    [""N"", [5,16],
+      [""Cause"",
+        [""S"", [5,15],
+          [""Sequence"",
+            [""N"", [5,6],
+              [""Means"",
+                [""N"", [5]],
+                [""S"", [6]]
+              ]
+            ],
+            [""N"", [7,9],
+              [""Cause"",
+                [""S"", [7,8],
+                  [""Contrast"",
+                    [""N"", [7]],
+                    [""N"", [8]]
+                  ]
+                ],
+                [""N"", [9]]
+              ]
+            ],
+            [""N"", [10,12],
+              [""Circumstance"",
+                [""S"", [10]],
+                [""N"", [11,12],
+                  [""Means"",
+                    [""N"", [11]],
+                    [""S"", [12]]
+                  ]
+                ]
+              ]
+            ],
+            [""N"", [13,15],
+              [""Circumstance"",
+                [""S"", [13]],
+                [""N"", [14,15],
+                  [""Conjunction"",
+                    [""N"", [14]],
+                    [""N"", [15]]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [""N"", [16]]
+      ]
+    ]
+  ]
+]",3,18,"Cross-site scripting (XSS) is a specific type of injection attack found in web applications. In XSS, the site allows an attacker a possibility of injecting client-side scripts into the application, which are then executed on other users' computers as they access the application.
+
+The starting point of an XSS attack is injecting code to the application. This can be done through, for example, a form or an API endpoint. Unlike SQL injection, XSS does not lead to the code being executed on the server, instead, it is simply stored. This results in the server compromising its users. Whenever a user requests content from the server that has the malicious code, the server responds to the request normally, by sending the content to the user. Now, when the user retrieves the content with the malicious code, the content will be processed by the browser and the code will be executed. This can, for example, lead to the browser crashing or to worse effects such as compromising content stored within the browser.",0.99262946844101,0.990479648113251,0.991568922996521
+"How to Prevent Overwriting Plots in R
+If you run ‘pdf’ multiple times without running ‘dev.off’, you will save plots to the most recently opened file. However, you won’t be able to open the previous ‘pdf’ files because the connections were not closed. You can take steps to prevent this.
+
+First, you can check your current status using the function ‘dev.cur’. If it says “pdf”, all your plots are being saved in the last pdf specified. In order to get out of this situation, you’ll need to run dev.off until all the ‘pdf’ connections are closed. If the current status says “null device” or “RStudioGD”, the plots will be visualized as intended without overwriting.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[1] How to Prevent Overwriting Plots in R
+[2] If you run ‘pdf’ multiple times
+[3] without running ‘dev.off’,
+[4] you will save plots to the most recently opened file.
+[5] However, you won’t be able to open the previous ‘pdf’ files
+[6] because the connections were not closed.
+[7] You can take steps
+[8] to prevent this.
+[9] First, you can check your current status
+[10] using the function ‘dev.cur’.
+[11] If it says “pdf”,
+[12] all your plots are being saved in the last pdf specified.
+[13] In order to get out of this situation,
+[14] you’ll need to run dev.off
+[15] until all the ‘pdf’ connections are closed.
+[16] If the current status says “null device” or “RStudioGD”,
+[17] the plots will be visualized
+[18] as intended
+[19] without overwriting.
+
+RST tree:
+[Preparation
+  S: 1
+  N: [Background
+    S: [Contrast
+      N: [Condition
+        S: [Circumstance N: 2, S: 3]
+        N: 4]
+      N: [Cause N: 5, S: 6]]
+    N: [Preparation
+      S: [Purpose N: 7, S: 8]
+      N: [Enablement
+        S: [Means N: 9, S: 10]
+        N: [Contrast
+          N: [Solutionhood
+            S: [Condition S: 11, N: 12]
+            N: [Purpose
+              S: 13
+              N: [Circumstance N: 14, S: 15]]]
+          N: [Condition
+            S: 16
+            N: [Circumstance
+              N: [Evaluation N: 17, S: 18]
+              S: 19]]]]]]]",1,19,"How to Prevent Overwriting Plots in R
+
+If you run ‘pdf’ multiple times without running ‘dev.off’, you will save plots to the most recently opened file. However, you won’t be able to open the previous ‘pdf’ files because the connections were not closed. You can take steps to prevent this. First, you can check your current status using the function ‘dev.cur’. If it says “pdf”, all your plots are being saved in the last pdf specified. In order to get out of this situation, you’ll need to run dev.off until all the ‘pdf’ connections are closed. If the current status says “null device” or “RStudioGD”, the plots will be visualized as intended without overwriting.",0.963088989257813,0.949132323265076,0.956172287464142
+"We may want to emphasize the distinction between “Monte Carlo” and “Las Vegas” type algorithms:
+• Monte Carlo: Algorithm A always stops in time T(n); the output is a correct solution to problem Π with probability p. 
+• Las Vegas: Algorithm A stops in time T(n) with probability p; when it stops, the output is always a correct solution to problem Π.
+
+In the event that the algorithm did not meet its guarantees—in the case of a Las Vegas algorithm, it did not stop in time T(n), and in the case of Monte Carlo algorithms, it did not produce a correct output.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs
+
+1. We may want to emphasize the distinction between “Monte Carlo” and “Las Vegas” type algorithms:
+2. Monte Carlo: Algorithm A always stops in time T(n);
+3. the output is a correct solution to problem Π with probability p.
+4. Las Vegas: Algorithm A stops in time T(n) with probability p;
+5. when it stops,
+6. the output is always a correct solution to problem Π.
+7. In the event that the algorithm did not meet its guarantees—
+8. in the case of a Las Vegas algorithm, it did not stop in time T(n),
+9. and in the case of Monte Carlo algorithms, it did not produce a correct output.
+
+RST tree
+
+- Background: S=[1–6], N=[7–9]
+  - S [1–6]: Preparation: S=[1], N=[2–6]
+    - S [1]
+    - N [2–6]: Contrast: N=[2–3], N=[4–6]
+      - N [2–3]: List: N=[2], N=[3]
+      - N [4–6]: List: N=[4], N=[5–6]
+        - N [4]
+        - N [5–6]: Circumstance: S=[5], N=[6]
+  - N [7–9]: Condition: S=[7], N=[8–9]
+    - S [7]
+    - N [8–9]: Contrast: N=[8], N=[9]",3,20,"We may want to emphasize the distinction between “Monte Carlo” and “Las Vegas” type algorithms:
+
+Monte Carlo: Algorithm A always stops in time T(n); the output is a correct solution to problem Π with probability p.
+
+Las Vegas: Algorithm A stops in time T(n) with probability p; when it stops, the output is always a correct solution to problem Π.
+
+In the event that the algorithm did not meet its guarantees—in the case of a Las Vegas algorithm, it did not stop in time T(n), and in the case of Monte Carlo algorithms, it did not produce a correct output.",0.944842159748077,0.936483025550842,0.940760493278503
+"Everybody is familiar with the centuries old board game Snakes and Ladders, which is an example of a Markov Chain. In a nutshell, there is a board with a hundred and one numbered squares on it (some of which are ‘snakes’ and ‘leaders’), which can be considered states. The game proceeds as follows. Players advance from the start state of 0 by throwing dice and using the numbers they obtain to move ahead to a new state (with the equal probability of 1/6) until they reach the terminal state of 100. When moving to a new state, they can advance to an ordinary state or one of the two special states: ‘snakes’ or ‘ladders’. If a player’s new state is the head of a snake, they have to go backwards, losing some of their advance. If it is the base of a ladder, they advance to the top of that ladder.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[1. Everybody is familiar with the centuries old board game Snakes and Ladders,
+ 2. which is an example of a Markov Chain.
+ 3. In a nutshell, there is a board with a hundred and one numbered squares on it,
+ 4. some of which are ‘snakes’ and ‘leaders’,
+ 5. which can be considered states.
+ 6. The game proceeds as follows.
+ 7. Players advance from the start state of 0
+ 8. by throwing dice
+ 9. and using the numbers they obtain
+ 10. to move ahead to a new state (with the equal probability of 1/6)
+ 11. until they reach the terminal state of 100.
+ 12. When moving to a new state,
+ 13. they can advance to an ordinary state or one of the two special states: ‘snakes’ or ‘ladders’.
+ 14. If a player’s new state is the head of a snake,
+ 15. they have to go backwards,
+ 16. losing some of their advance.
+ 17. If it is the base of a ladder,
+ 18. they advance to the top of that ladder.]
+
+RST tree:
+[Background,
+  [S, Elaboration,
+    [N, E-Elaboration, [N, 1], [S, 2]],
+    [S, E-Elaboration,
+      [N, E-Elaboration, [N, 3], [S, 4]],
+      [S, 5]]]],
+  [N, Preparation,
+    [S, 6],
+    [N, Sequence,
+      [N, Circumstance,
+        [N, Means,
+          [N, 7],
+          [S, Conjunction,
+            [N, 8],
+            [N, Purpose, [N, 9], [S, 10]]]],
+        [S, 11]],
+      [N, Background,
+        [S, Circumstance, [S, 12], [N, 13]],
+        [N, Contrast,
+          [N, Condition,
+            [S, 14],
+            [N, Result, [N, 15], [S, 16]]],
+          [N, Condition, [S, 17], [N, 18]]]]]]]]",1,21,"Everybody is familiar with the centuries old board game Snakes and Ladders, which is an example of a Markov Chain. In a nutshell, there is a board with a hundred and one numbered squares on it, some of which are ‘snakes’ and ‘leaders’, which can be considered states. The game proceeds as follows. Players advance from the start state of 0 by throwing dice and using the numbers they obtain to move ahead to a new state (with the equal probability of 1/6) until they reach the terminal state of 100. When moving to a new state, they can advance to an ordinary state or one of the two special states: ‘snakes’ or ‘ladders’. If a player’s new state is the head of a snake, they have to go backwards, losing some of their advance. If it is the base of a ladder, they advance to the top of that ladder.",0.981400310993195,0.981956243515015,0.981710195541382
+"An observational study is one in which data is produced by naturally occurring processes (we’ll call them data-generating processes, or DGPs) and then collected by the researcher. Crucially, the experimenter has no way to influence any of the variables. The sad fact is that every observational study has potential confounding factors and there’s simply no foolproof way to account for them all.   A controlled experiment, on the other hand, is one in which the researcher decides what the value of the independent variable will be for each object of study. She normally does this randomly, which is why this technique is called randomization. The good news is that a controlled experiment automatically eliminates every possible confounding factor, whether you thought of it or not.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[
+  [1, ""An observational study is one in which data is produced by naturally occurring processes""],
+  [2, ""we’ll call them data-generating processes, or DGPs""],
+  [3, ""and then collected by the researcher.""],
+  [4, ""Crucially, the experimenter has no way to influence any of the variables.""],
+  [5, ""The sad fact is that every observational study has potential confounding factors""],
+  [6, ""and there’s simply no foolproof way to account for them all.""],
+  [7, ""A controlled experiment, on the other hand, is one in which the researcher decides what the value of the independent variable will be for each object of study.""],
+  [8, ""She normally does this randomly,""],
+  [9, ""which is why this technique is called randomization.""],
+  [10, ""The good news is that a controlled experiment automatically eliminates every possible confounding factor,""],
+  [11, ""whether you thought of it or not.""]
+]
+
+RST tree:
+[""Contrast"",
+  [""N"",
+    [""Background"",
+      [""S"",
+        [""Sequence"",
+          [""N"", [""E-Elaboration"", [""N"", 1], [""S"", 2]]],
+          [""N"", 3]
+        ]
+      ],
+      [""N"",
+        [""Cause"",
+          [""S"", 4],
+          [""N"", [""Conjunction"", [""N"", 5], [""N"", 6]]]
+        ]
+      ]
+    ]
+  ],
+  [""N"",
+    [""Background"",
+      [""S"", 7],
+      [""N"",
+        [""Cause"",
+          [""S"", [""Result"", [""N"", 8], [""S"", 9]]],
+          [""N"", [""Concession"", [""N"", 10], [""S"", 11]]]
+        ]
+      ]
+    ]
+  ]
+]",3,22,"An observational study is one in which data is produced by naturally occurring processes—we’ll call them data-generating processes, or DGPs—and then collected by the researcher. Crucially, the experimenter has no way to influence any of the variables. The sad fact is that every observational study has potential confounding factors, and there’s simply no foolproof way to account for them all.
+
+A controlled experiment, on the other hand, is one in which the researcher decides what the value of the independent variable will be for each object of study. She normally does this randomly, which is why this technique is called randomization. The good news is that a controlled experiment automatically eliminates every possible confounding factor, whether you thought of it or not.",0.953971564769745,0.960087835788727,0.957101583480835
+"In the supervised setting, our most common machine learning activities will be classification and regression. In each one, our job is to predict the value of the target attribute for a new object, based on the previous example objects we’ve seen. The only difference is the scale of measure of the target variable: if it’s categorical, we’re performing classification, and our goal is to build a classifier: an algorithm that can classify future examples by guessing their target value. If the target variable is numeric, then we have regression, and our goal is to make the closest guess we can to the true target value.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. [In the supervised setting, our most common machine learning activities will be classification and regression.]
+2. [In each one, our job is to predict the value of the target attribute for a new object,]
+3. [based on the previous example objects we’ve seen.]
+4. [The only difference is the scale of measure of the target variable:]
+5. [if it’s categorical,]
+6. [we’re performing classification,]
+7. [and our goal is to build a classifier: an algorithm that can classify future examples]
+8. [by guessing their target value.]
+9. [If the target variable is numeric,]
+10. [then we have regression,]
+11. [and our goal is to make the closest guess we can to the true target value.]
+
+RST tree:
+[Background
+  [S: Elaboration
+    [N: 1]
+    [S: Means
+      [N: 2]
+      [S: 3]]]
+  [N: Background
+    [S: 4]
+    [N: Contrast
+      [N: Condition
+        [S: 5]
+        [N: Conjunction
+          [N: 6]
+          [N: Means
+            [N: 7]
+            [S: 8]]]]
+      [N: Condition
+        [S: 9]
+        [N: Conjunction
+          [N: 10]
+          [N: 11]]]]]]",3,23,"In the supervised setting, our most common machine learning activities will be classification and regression. In each one, our job is to predict the value of the target attribute for a new object, based on the previous example objects we’ve seen. The only difference is the scale of measure of the target variable: if it’s categorical, we’re performing classification, and our goal is to build a classifier: an algorithm that can classify future examples by guessing their target value. If the target variable is numeric, then we have regression, and our goal is to make the closest guess we can to the true target value.",1,1,1
+"The main advantage of dynamic programming comes from storing the result of costly calculations that may need to be queried later. The technique known as memoization does this in an elegant way. One approach to memoization allows for a function to keep a cache of tried arguments. Each time the function is called with a specific set of arguments, the cache can be queried to see if that result is known. If the specific combination of arguments has been used before, the result is simply returned from the cache. If the arguments have not been seen before, the calculation proceeds as normal. Once the result is calculated, the function updates the cache before returning the value. This will save work for the next time the function is called with the same arguments. The cache could be implemented as a table or hash table.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[1, ""The main advantage of dynamic programming comes from storing the result of costly calculations that may need to be queried later.""]
+[2, ""The technique known as memoization does this in an elegant way.""]
+[3, ""One approach to memoization allows for a function to keep a cache of tried arguments.""]
+[4, ""Each time the function is called with a specific set of arguments,""]
+[5, ""the cache can be queried""]
+[6, ""to see if that result is known.""]
+[7, ""If the specific combination of arguments has been used before,""]
+[8, ""the result is simply returned from the cache.""]
+[9, ""If the arguments have not been seen before,""]
+[10, ""the calculation proceeds as normal.""]
+[11, ""Once the result is calculated,""]
+[12, ""the function updates the cache""]
+[13, ""before returning the value.""]
+[14, ""This will save work""]
+[15, ""for the next time the function is called with the same arguments.""]
+[16, ""The cache could be implemented as a table or hash table.""]
+
+RST tree:
+[""Background"",
+  [""S"",
+    [""Elaboration"",
+      [""N"", 1],
+      [""S"",
+        [""Elaboration"",
+          [""N"", 2],
+          [""S"",
+            [""Elaboration"",
+              [""N"", 3],
+              [""S"",
+                [""Result"",
+                  [""N"",
+                    [""Sequence"",
+                      [""N"",
+                        [""Circumstance"",
+                          [""S"", 4],
+                          [""N"", [""Purpose"", [""N"", 5], [""S"", 6]]]]],
+                      [""N"",
+                        [""Contrast"",
+                          [""N"", [""Condition"", [""S"", 7], [""N"", 8]]],
+                          [""N"",
+                            [""Sequence"",
+                              [""N"", [""Condition"", [""S"", 9], [""N"", 10]]],
+                              [""N"",
+                                [""Circumstance"",
+                                  [""N"", [""Circumstance"", [""S"", 11], [""N"", 12]]],
+                                  [""S"", 13]]]]]]]]],
+                  [""S"", [""Circumstance"", [""N"", 14], [""S"", 15]]]]]]]]]]]],
+  [""N"", 16]]",1,24,"The main advantage of dynamic programming comes from storing the result of costly calculations that may need to be queried later. The technique known as memoization does this in an elegant way. One approach to memoization allows for a function to keep a cache of tried arguments. Each time the function is called with a specific set of arguments, the cache can be queried to see if that result is known. If the specific combination of arguments has been used before, the result is simply returned from the cache. If the arguments have not been seen before, the calculation proceeds as normal. Once the result is calculated, the function updates the cache before returning the value. This will save work for the next time the function is called with the same arguments. The cache could be implemented as a table or hash table.",1,0.999999642372131,0.999999821186066
+"TCP, like most connection-oriented transport protocols, supports two types of connection release : • graceful connection release, where each TCP user can release its own direction of data transfer • abrupt connection release, where either one user closes both directions of data transfer or one TCP entity is forced to close the connection (e.g. because the remote host does not reply anymore or due to lack of resources) The abrupt connection release mechanism is very simple and relies on a single segment having the RST bit set. A TCP segment containing the RST bit can be sent for the following reasons: • a non-SYN segment was received for a non-existing TCP connection RFC 793 • by extension, some implementations respond with an RST segment to a segment that is received on an existing connection but with an invalid header RFC 3360. This causes the corresponding connection to be closed and has caused security attacks RFC 4953 • by extension, some implementations send an RST segment when they need to close an existing TCP connection (e.g. because there are not enough resources to support this connection or because the remote host is considered to be unreachable). Measurements have shown that this usage of TCP RST was widespread.","Disclaimer: This text is generated with the gpt-5.6-sol language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+[1] TCP, like most connection-oriented transport protocols, supports two types of connection release.
+[2] Graceful connection release, where each TCP user can release its own direction of data transfer.
+[3] Abrupt connection release, where either one user closes both directions of data transfer.
+[4] Or one TCP entity is forced to close the connection.
+[5] For example, because the remote host does not reply anymore or due to lack of resources.
+[6] The abrupt connection release mechanism is very simple.
+[7] And relies on a single segment having the RST bit set.
+[8] A TCP segment containing the RST bit can be sent for the following reasons.
+[9] A non-SYN segment was received for a non-existing TCP connection (RFC 793).
+[10] By extension, some implementations respond with an RST segment to a segment that is received on an existing connection but with an invalid header (RFC 3360).
+[11] This causes the corresponding connection to be closed.
+[12] And has caused security attacks (RFC 4953).
+[13] By extension, some implementations send an RST segment.
+[14] When they need to close an existing TCP connection.
+[15] For example, because there are not enough resources to support this connection.
+[16] Or because the remote host is considered to be unreachable.
+[17] Measurements have shown that this usage of TCP RST was widespread.
+
+RST tree:
+[Background,
+  [S: Background,
+    [S: Elaboration,
+      [N: 1],
+      [S: Contrast,
+        [N: 2],
+        [N: Conjunction,
+          [N: 3],
+          [N: Cause,
+            [N: 4],
+            [S: 5]]]]]],
+    [N: Conjunction,
+      [N: 6],
+      [N: 7]]],
+  [N: Preparation,
+    [S: 8],
+    [N: List,
+      [N: 9],
+      [N: Result,
+        [N: 10],
+        [S: Conjunction,
+          [N: 11],
+          [N: 12]]],
+      [N: Background,
+        [S: Circumstance,
+          [N: 13],
+          [S: Cause,
+            [N: 14],
+            [S: Conjunction,
+              [N: 15],
+              [N: 16]]]],
+        [N: 17]]]]]",3,25,"TCP, like most connection-oriented transport protocols, supports two types of connection release. Graceful connection release, where each TCP user can release its own direction of data transfer. Abrupt connection release, where either one user closes both directions of data transfer. Or one TCP entity is forced to close the connection. For example, because the remote host does not reply anymore or due to lack of resources. The abrupt connection release mechanism is very simple. And relies on a single segment having the RST bit set.
+
+A TCP segment containing the RST bit can be sent for the following reasons. A non-SYN segment was received for a non-existing TCP connection (RFC 793). By extension, some implementations respond with an RST segment to a segment that is received on an existing connection but with an invalid header (RFC 3360). This causes the corresponding connection to be closed. And has caused security attacks (RFC 4953). By extension, some implementations send an RST segment. When they need to close an existing TCP connection. For example, because there are not enough resources to support this connection. Or because the remote host is considered to be unreachable. Measurements have shown that this usage of TCP RST was widespread.",0.874277830123901,0.883245170116425,0.878966212272644
