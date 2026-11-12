@@ -1,0 +1,29 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+
+
+1. **Elementary Discourse Units (EDUs):**
+   - [Write a new rule for ‘last.dat’, created from ‘books/last.txt.’]
+   - [Update the ‘dats’ rule with this target.]
+   - [Write a new rule for ‘results.txt’, which creates the summary table.]
+   - [The rule needs to depend upon each of the three ‘.dat’ files] [and invoke the action ‘python testzipf.py abyss.dat isles.dat last.dat > results.txt’.]
+   - [Put this rule at the top of the ‘Makefile’ so that it is the default target.]
+   - [Update ‘clean’ so that it removes ‘results.txt’.]
+
+2. **RST Tree Structure:**
+
+   - **Sequence**
+     - **Nucleus**: [Write a new rule for ‘last.dat’, created from ‘books/last.txt.’]
+     - **Nucleus**: [Update the ‘dats’ rule with this target.]
+     - **Sequence**
+       - **Nucleus**: [Write a new rule for ‘results.txt’, which creates the summary table.]
+       - **Circumstance**
+         - **Nucleus**: [The rule needs to depend upon each of the three ‘.dat’ files]
+         - **Satellite**: [and invoke the action ‘python testzipf.py abyss.dat isles.dat last.dat > results.txt’.]
+   - **Sequence**
+     - **Nucleus**: [Put this rule at the top of the ‘Makefile’ so that it is the default target.]
+     - **Nucleus**: [Update ‘clean’ so that it removes ‘results.txt’.]
+
+*Notes:*
+- **Sequence** relation is used to connect EDUs that describe steps or tasks in a particular order.
+- **Circumstance** relation is used for the condition and action regarding the dependency of files in the rule for ‘results.txt.’ This relation shows that the action follows from the dependencies outlined.

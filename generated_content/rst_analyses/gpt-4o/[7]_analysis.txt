@@ -1,0 +1,25 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+## EDU Segmentation
+1. Write a Python program that checks the age of a user to determine if they will receive a youth or adult library card.
+2. The program should: store age in a variable,
+3. use an if statement to check if the age is 16 or older.
+4. If true, print ‘You are eligible for an adult library card.’,
+5. if else, print ‘You are eligible for a youth library card.’
+
+## RST Tree Structure
+- Multinuclear Relation: Sequence
+  - EDU 1: Write a Python program...
+  - EDU 2: The program should: store age in a variable,
+  - EDU 3-5 (Nucleus: Condition)
+    - EDU 3: use an if statement...
+    - EDU 4-5 (Nucleus/Satellite: Contrast)
+      - EDU 4 (Nucleus): If true, print ‘You are eligible for an adult library card.’,
+      - EDU 5 (Satellite): if else, print ‘You are eligible for a youth library card.’
+
+### Explanation
+- **Sequence**: The text outlines a sequence of steps to create a program.
+- **Condition**: EDU 3 checks a condition regarding age.
+- **Contrast**: EDUs 4 and 5 present contrasting outcomes based on the condition evaluated in EDU 3. EDU 4 acts as the nucleus and EDU 5 as the satellite in this contrast.
+
+This analysis provides a structured representation of the instructions using RST, highlighting the logical flow and relationships between instructions.

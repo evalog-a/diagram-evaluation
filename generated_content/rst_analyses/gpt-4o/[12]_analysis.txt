@@ -1,0 +1,30 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+**EDUs:**
+
+1. The filesystem looks like an upside down tree.
+2. The topmost directory is the root directory.
+3. [The root directory] holds everything else.
+4. We refer to it using a slash character, /.
+5. Inside the root directory are several other directories: bin, data, Users, tmp.
+6. [bin is where some built-in programs are stored]
+7. [data is for miscellaneous data files]
+8. [Users is where users’ personal directories are located]
+9. [tmp is for temporary files that don’t need to be stored long-term.]
+
+**RST Tree:**
+
+- Nucleus: EDU 1 (The filesystem looks like an upside down tree.)
+  - Elaboration: Nucleus-Satellite
+    - EDU 2 (The topmost directory is the root directory.)
+      - Elaboration: Nucleus-Satellite
+        - EDU 3 ([The root directory] holds everything else.)
+          - Explanation: Nucleus-Satellite
+            - EDU 4 (We refer to it using a slash character, /.)
+              - Elaboration: Nucleus-Satellite
+                - EDU 5 (Inside the root directory are several other directories: bin, data, Users, tmp.)
+                  - List: Multinuclear
+                    - EDU 6 ([bin is where some built-in programs are stored])
+                    - EDU 7 ([data is for miscellaneous data files])
+                    - EDU 8 ([Users is where users’ personal directories are located])
+                    - EDU 9 ([tmp is for temporary files that don’t need to be stored long-term.])

@@ -1,0 +1,22 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. Write a Python program that checks the age of a user
+2. to determine if they will receive a youth or adult library card.
+3. The program should store age in a variable
+4. use an if statement
+5. to check if the age is 16 or older.
+6. If true, print ‘You are eligible for an adult library card.’
+7. if else, print ‘You are eligible for a youth library card.’
+
+RST Tree (nested lists; [Relation, Nucleus, Satellite] / [Relation, Nucleus-list] for multinuclear):
+["Enablement",
+    ["Purpose", 1, 2],
+    ["Sequence",
+        3,
+        ["Elaboration",
+            ["Purpose", 4, 5],
+            ["Contrast", 6, 7]
+        ]
+    ]
+]

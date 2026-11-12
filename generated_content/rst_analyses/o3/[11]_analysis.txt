@@ -1,0 +1,40 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. Informally, the algorithm proceeds as follows.
+2. For each node u, its state s(u) alternates between 1 and 0,
+3. initially, s(u) ← 1 and c(u) ← ⊥.
+4. When s(u) = 1, the node receives the set of messages M(u),
+5. it then decides with probability 0.5 to be passive and set c(u) = ⊥ or to be active and pick a random color c(u) ∈ F(u),
+6. where F(u) = C(u)\M(u) is the set of free colors.
+7. Next, it sets s(u) ← 0.
+8. When s(u) = 0, the node receives the set of messages M(u),
+9. it then verifies its choice.
+10. If the current color c(u) conflicts with one of the neighbors (c(u) ∈ M(u)),
+11. we go back to the initial state s(u) ← 1 and c(u) ← ⊥.
+12. However, if we were lucky and managed to pick a color that does not conflict with any of our neighbors,
+13. we keep the current value of c(u) and switch to the stopping state s(u) = 1 and c(u) ̸= ⊥.
+
+RST tree (nested parentheses notation; N = nucleus, S = satellite):
+(Preparation
+  (S 1)
+  (N
+    (Background
+      (S (2 3))
+      (N
+        (Sequence
+          (N  
+            (Sequence   
+              (N 4)
+              (N (Elaboration (N 5) (S 6)))
+              (N 7)))
+          (N
+            (Circumstance
+              (S 8)
+              (N
+                (Sequence
+                  (N 9)
+                  (N
+                    (Contrast
+                      (N (Condition (S 10) (N 11)))
+                      (N (Condition (S 12) (N 13))))))))))))

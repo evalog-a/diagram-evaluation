@@ -1,0 +1,44 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+## RSTResponse
+
+```json
+{
+    "EDUs": [
+        "All computers are started simultaneously,",
+        "they follow algorithm A synchronously in parallel.",
+        "In each synchronous communication round,",
+        "all the computers in parallel (1) send a message to each of their ports,",
+        "wait while the messages are propagated along the communication channels,",
+        "receive a message from each of their ports, and",
+        "update their own state."
+    ],
+    "RST Tree": [
+        {
+            "Contrast": [
+                {
+                    "Sequence": [
+                        "All computers are started simultaneously,",
+                        "they follow algorithm A synchronously in parallel."
+                    ]
+                },
+                {
+                    "Elaboration": [
+                        "In each synchronous communication round,",
+                        {
+                            "List": [
+                                "all the computers in parallel (1) send a message to each of their ports,",
+                                "wait while the messages are propagated along the communication channels,",
+                                "receive a message from each of their ports, and",
+                                "update their own state."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+```
+
+This RST analysis identifies the structure of the text with a multinuclear Contrast relation, where the initial sequence sets the stage for the detailed elaboration of the actions performed by the computers in parallel communication rounds. The list within the Elaboration offers specific steps taken by each computer during the process.

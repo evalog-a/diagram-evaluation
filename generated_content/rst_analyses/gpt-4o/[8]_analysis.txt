@@ -1,0 +1,48 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+**EDUs:**
+
+1. Write a script that loops through the gapminder data by continent
+2. and prints out whether the mean life expectancy is smaller or larger than 50 years.
+3. We want to make sure we can extract all the unique values of the continent vector.
+4. We also need to loop over each of these continents and calculate the average life expectancy for each subset of data.
+5. We can do that as follows:
+6. Loop over each of the unique values of continent.
+7. For each value of continent, create a temporary variable storing that subset.
+8. Return the calculated life expectancy to the user by printing the output.
+9. The exercise only wants the output printed if the average life expectancy is less than 50 or greater than 50.
+10. So we need to add an if() condition before printing,
+11. which evaluates whether the calculated average life expectancy is above or below a threshold,
+12. and prints an output conditional on the result.
+13. We need to amend (3) from above:
+14. If the calculated life expectancy is less than some threshold (50 years),
+15. return the continent and a statement that life expectancy is less than threshold,
+16. otherwise return the continent and a statement that life expectancy is greater than threshold.
+
+**RST Tree:**
+
+1. [Write a script that loops through the gapminder data by continent]N
+   2.  [and prints out whether the mean life expectancy is smaller or larger than 50 years.]S
+      - Relation: Elaboration
+
+3. [We want to make sure we can extract all the unique values of the continent vector.]N
+4. [We also need to loop over each of these continents and calculate the average life expectancy for each subset of data.]S
+   - Relation: Joint [3, 4]
+
+5. [We can do that as follows:]N
+   6. [Loop over each of the unique values of continent.]S
+   7. [For each value of continent, create a temporary variable storing that subset.]S
+   8. [Return the calculated life expectancy to the user by printing the output.]S
+   - Relation: Sequence [6, 7, 8]
+
+9. [The exercise only wants the output printed if the average life expectancy is less than 50 or greater than 50.]N
+10. [So we need to add an if() condition before printing,]S
+11. [which evaluates whether the calculated average life expectancy is above or below a threshold,]N
+12. [and prints an output conditional on the result.]S
+   - Relation: Elaboration [10, 11, 12]
+
+13. [We need to amend (3) from above:]N
+14. [If the calculated life expectancy is less than some threshold (50 years),]S
+15. [return the continent and a statement that life expectancy is less than threshold,]N
+16. [otherwise return the continent and a statement that life expectancy is greater than threshold.]S
+   - Relation: Condition [14, 15, 16]

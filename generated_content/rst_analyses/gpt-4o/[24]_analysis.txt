@@ -1,0 +1,28 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. The main advantage of dynamic programming comes from storing the result of costly calculations that may need to be queried later.
+2. The technique known as memoization does this in an elegant way.
+3. One approach to memoization allows for a function to keep a cache of tried arguments.
+4. Each time the function is called with a specific set of arguments, the cache can be queried to see if that result is known.
+5. If the specific combination of arguments has been used before, the result is simply returned from the cache.
+6. If the arguments have not been seen before, the calculation proceeds as normal.
+7. Once the result is calculated, the function updates the cache before returning the value.
+8. This will save work for the next time the function is called with the same arguments.
+9. The cache could be implemented as a table or hash table.
+
+RST Tree:
+- Nucleus: [1] "The main advantage of dynamic programming comes from storing the result of costly calculations that may need to be queried later."
+  - Justify [2]
+    - Nucleus: [2] "The technique known as memoization does this in an elegant way."
+      - Elaboration [3, 4]
+        - Nucleus: [3] "One approach to memoization allows for a function to keep a cache of tried arguments."
+        - Nucleus: [4] "Each time the function is called with a specific set of arguments, the cache can be queried to see if that result is known."
+          - Condition [5, 6]
+            - Nucleus: [5] "If the specific combination of arguments has been used before, the result is simply returned from the cache."
+            - Satellite: [6] "If the arguments have not been seen before, the calculation proceeds as normal."
+              - Sequence [7, 8]
+                - Nucleus: [7] "Once the result is calculated, the function updates the cache before returning the value."
+                - Nucleus: [8] "This will save work for the next time the function is called with the same arguments."
+  - Elaboration [9]
+    - Nucleus: [9] "The cache could be implemented as a table or hash table."

@@ -1,0 +1,51 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+## EDUs
+1. Domain Name Service (DNS) servers are a particular server type that help the internet function.
+2. The TCP/IP-protocol functions based on IP-addresses,
+3. while server addresses in URIs can be written as text.
+4. When a request to an URI is made,
+5. the server address in the URI needs to be first resolved into an IP address.
+6. If the server address is an IP address,
+7. no resolution needs to be made.
+8. Otherwise, the address needs to be looked up.
+9. Computers typically have a cache (a temporary memory)
+10. that contains recent visits to websites,
+11. storing both the text-based address and the corresponding IP address.
+12. If the address is within the cache,
+13. the resolution of the IP address happens locally on the computer.
+14. If the address is not in the cache, however,
+15. the address needs to be resolved using an external service.
+16. Here, DNS servers come into play.
+17. Whenever an address needs to be resolved,
+18. the computer sends a message to a DNS server asking for a corresponding IP address.
+19. Once the DNS server returns the IP address,
+20. the computer stores the IP address into its cache,
+21. and then continues by sending the message to the actual IP address.
+
+## RST Tree
+1. Background: [Domain Name Service (DNS) servers are a particular server type that help the internet function.]N <--> [The TCP/IP-protocol functions based on IP-addresses,]S
+
+2. Contrast: [The TCP/IP-protocol functions based on IP-addresses,]N <--> [while server addresses in URIs can be written as text.]N
+
+3. Condition: [When a request to an URI is made,]S <--> [the server address in the URI needs to be first resolved into an IP address.]N
+
+4. Condition: [If the server address is an IP address,]S <--> [no resolution needs to be made.]N
+
+5. Otherwise: [Otherwise, the address needs to be looked up.]N <--> [Computers typically have a cache (a temporary memory)]S
+
+6. Elaboration: [Computers typically have a cache (a temporary memory)]N <--> [that contains recent visits to websites,]S
+
+7. Elaboration: [that contains recent visits to websites,]N <--> [storing both the text-based address and the corresponding IP address.]S
+
+8. Condition: [If the address is within the cache,]S <--> [the resolution of the IP address happens locally on the computer.]N
+
+9. Otherwise: [If the address is not in the cache, however,]S <--> [the address needs to be resolved using an external service.]N
+
+10. Enablement: [Here, DNS servers come into play.]N <--> [Whenever an address needs to be resolved,]S
+
+11. Sequence: [Whenever an address needs to be resolved,]N <--> [the computer sends a message to a DNS server asking for a corresponding IP address.]N
+
+12. Condition: [Once the DNS server returns the IP address,]S <--> [the computer stores the IP address into its cache,]N
+
+13. Sequence: [the computer stores the IP address into its cache,]N <--> [and then continues by sending the message to the actual IP address.]N

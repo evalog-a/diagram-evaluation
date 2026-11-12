@@ -1,0 +1,27 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. HTTP (HyperText Transfer Protocol) is the protocol used by browsers and servers for requests and responses.
+2. It is built on top of the TCP/IP-protocol,
+3. which handles the underlying concerns
+4. dividing requests into packets,
+5. ensuring that packets arrive at the correct destination,
+6. making sure that the content of the packets is correct,
+7. or making sure that the message that the packets jointly build is correctly reconstructed.
+
+RST tree (root first):
+Elaboration(
+  Nucleus: EDU1,
+  Satellite: Elaboration(
+    Nucleus: EDU2,
+    Satellite: Elaboration(
+      Nucleus: EDU3,
+      Satellite: Conjunction(
+        EDU4,
+        EDU5,
+        EDU6,
+        EDU7
+      )
+    )
+  )
+)

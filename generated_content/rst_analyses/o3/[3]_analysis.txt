@@ -1,0 +1,29 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. There are a number of HTTP-protocol request types.
+2. A web page, or any associated content of a page such as an image, is practically always retrieved using a GET request.
+3. Similarly, information is practically always sent using the POST request.
+4. DELETE: asks for removing of a resource.
+5. HEAD: asks for the header information related to a resource, but not the resource itself.
+6. It can be used for checking if an already downloaded resource has changed.
+7. OPTIONS: requests information about the possible options available regarding a request.
+8. For example, the resource could be removed with a request.
+
+RST tree (nested list notation):
+[Background
+  Satellite 1
+  Nucleus
+    [List
+      Nucleus 2
+      Nucleus 3
+      Nucleus 4
+      Nucleus
+        [Elaboration
+          Nucleus 5
+          Satellite 6]
+      Nucleus
+        [Elaboration
+          Nucleus 7
+          Satellite 8]]
+]

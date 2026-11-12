@@ -1,0 +1,38 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDU list:
+1. We may want to emphasize the distinction between “Monte Carlo” and “Las Vegas” type algorithms.
+2. Algorithm A always stops in time T(n).
+3. The output is a correct solution to problem Π with probability p.
+4. Algorithm A stops in time T(n) with probability p.
+5. When it stops,
+6. the output is always a correct solution to problem Π.
+7. In the event that the algorithm did not meet its guarantees
+8. in the case of a Las Vegas algorithm, it did not stop in time T(n),
+9. in the case of Monte Carlo algorithms, it did not produce a correct output.
+
+RST tree (nested list notation):
+[Preparation,
+  [Satellite, 1],
+  [Nucleus,
+    [Elaboration,
+      [Nucleus,
+        [Contrast,
+          [Nucleus,
+            [List,
+              [Nucleus, 2],
+              [Nucleus, 3]]],
+          [Nucleus,
+            [List,
+              [Nucleus, 4],
+              [Nucleus,
+                [Condition,
+                  [Satellite, 5],
+                  [Nucleus, 6]]]]]]],
+      [Satellite,
+        [Elaboration,
+          [Nucleus, 7],
+          [Satellite,
+            [Conjunction,
+              [Nucleus, 8],
+              [Nucleus, 9]]]]]]]]

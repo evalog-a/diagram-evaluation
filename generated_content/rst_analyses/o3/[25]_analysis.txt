@@ -1,0 +1,52 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. TCP, like most connection-oriented transport protocols, supports two types of connection release.
+2. graceful connection release, where each TCP user can release its own direction of data transfer.
+3. abrupt connection release, where either one user closes both directions of data transfer or one TCP entity is forced to close the connection.
+4. The abrupt connection release mechanism is very simple.
+5. It relies on a single segment having the RST bit set.
+6. A TCP segment containing the RST bit can be sent for the following reasons:
+7. a non-SYN segment was received for a non-existing TCP connection.
+8. By extension, some implementations respond with an RST segment to a segment that is received on an existing connection but with an invalid header.
+9. This causes the corresponding connection to be closed.
+10. and it has caused security attacks.
+11. By extension, some implementations send an RST segment when they need to close an existing TCP connection.
+12. because there are not enough resources to support this connection.
+13. because the remote host is considered to be unreachable.
+14. Measurements have shown that this usage of TCP RST was widespread.
+
+RST TREE:
+(Elaboration
+  (Nucleus EDU1)
+  (Satellite
+    (List
+      (Nucleus EDU2)
+      (Nucleus
+        (Elaboration
+          (Nucleus EDU3)
+          (Satellite EDU4)
+          (Satellite EDU5)
+          (Satellite
+            (Preparation
+              (Satellite EDU6)
+              (Nucleus
+                (List
+                  (Nucleus EDU7)
+                  (Nucleus
+                    (Result
+                      (Nucleus EDU8)
+                      (Satellite
+                        (Conjunction
+                          (Nucleus EDU9)
+                          (Nucleus EDU10)))))
+                  (Nucleus
+                    (Evidence
+                      (Nucleus
+                        (Reason
+                          (Nucleus EDU11)
+                          (Satellite
+                            (Conjunction
+                              (Nucleus EDU12)
+                              (Nucleus EDU13))))
+                      (Satellite EDU14))))))))))

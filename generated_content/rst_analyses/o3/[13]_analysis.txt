@@ -1,0 +1,44 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+E0 Task: Write Two New Rules
+E1 Write a new rule for ‘last.dat’
+E2 created from ‘books/last.txt’
+E3 Update the ‘dats’ rule with this target
+E4 Write a new rule for ‘results.txt’
+E5 which creates the summary table
+E6 The rule needs to depend upon each of the three ‘.dat’ files
+E7 and invoke the action ‘python testzipf.py abyss.dat isles.dat last.dat > results.txt’
+E8 Put this rule at the top of the ‘Makefile’
+E9 so that it is the default target
+E10 Update ‘clean’
+E11 so that it removes ‘results.txt’
+
+RST tree (bracketed):
+(Preparation
+  (Satellite E0)
+  (Nucleus
+    (List
+      (Nucleus
+        (Elaboration
+          (Nucleus E1)
+          (Satellite E2)))
+      (Nucleus E3)
+      (Nucleus
+        (Elaboration
+          (Nucleus
+            (Elaboration
+              (Nucleus E4)
+              (Satellite E5)))
+          (Satellite
+            (Conjunction
+              (Nucleus E6)
+              (Nucleus E7)))))
+      (Nucleus
+        (Purpose
+          (Nucleus E8)
+          (Satellite E9)))
+      (Nucleus
+        (Purpose
+          (Nucleus E10)
+          (Satellite E11))))))

@@ -1,0 +1,26 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1  How to check your data for factors
+2  How to check if your version of R has automatically created factors and convert them to ‘character’ format
+3  Check the data types of your input by typing str(cats)
+4  In the output, look at the three-letter codes after the colons
+5  If you see only ‘num’ and ‘chr’, the data type is ‘character’ and no further action is needed
+6  If you find ‘fct’ in the output, continue to Step 3
+7  Prevent R from automatically creating “factor” data by the following code: ‘options(stringsAsFactors = FALSE)’
+8  Re-read the cats table for the change to take effect
+9  You’re done!
+
+RST Tree:
+["Preparation",
+    ["Elaboration",
+        ["Nucleus", 1],
+        ["Satellite", 2]
+    ],
+    ["Summary",
+        ["Nucleus",
+            ["Sequence", 3, 4, 5, 6, 7, 8]
+        ],
+        ["Satellite", 9]
+    ]
+]

@@ -1,0 +1,33 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. The 'await' block consists of three parts.
+2. The first part is given an expression that evaluates to a promise that is awaited.
+3. The content of the first part is shown
+4. when the promise has not yet been resolved.
+5. The second part is ':then',
+6. which has content that is shown
+7. if the promise successfully resolves.
+8. The third part is ':catch',
+9. which has content that is shown
+10. if there is an error when resolving the promise.
+
+RST tree (parentheses denote constituent spans):
+Elaboration
+ ├─ Nucleus: 1
+ └─ Satellite: Sequence
+     ├─ Joint (Part 1)
+     │   ├─ Nucleus: 2
+     │   └─ Nucleus: Circumstance
+     │       ├─ Nucleus: 3
+     │       └─ Satellite: 4
+     ├─ Joint (Part 2)
+     │   ├─ Nucleus: 5
+     │   └─ Nucleus: Condition
+     │       ├─ Nucleus: 6
+     │       └─ Satellite: 7
+     └─ Joint (Part 3)
+         ├─ Nucleus: 8
+         └─ Nucleus: Condition
+             ├─ Nucleus: 9
+             └─ Satellite: 10

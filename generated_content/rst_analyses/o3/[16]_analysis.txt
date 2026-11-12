@@ -1,0 +1,48 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. Web frameworks introduced a structured flow for handling web requests.
+2. When a request is received,
+3. it is mapped to a route,
+4. which is then processed by a controller.
+5. The controller interacts with a repository layer to perform database operations,
+6. and the resulting data is returned to the controller.
+7. The response is then formatted (e.g., as HTML or JSON).
+8. The response is sent back to the client.
+
+RST tree:
+[
+  "Background",
+  ["Satellite", 1],
+  ["Nucleus",
+    ["Sequence",
+      ["Nucleus",
+        ["Sequence",
+          ["Nucleus",
+            ["Circumstance",
+              ["Satellite", 2],
+              ["Nucleus",
+                ["Elaboration",
+                  ["Nucleus", 3],
+                  ["Satellite", 4]
+                ]
+              ]
+            ]
+          ],
+          ["Nucleus",
+            ["Sequence",
+              ["Nucleus", 5],
+              ["Nucleus", 6]
+            ]
+          ]
+        ]
+      ],
+      ["Nucleus",
+        ["Sequence",
+          ["Nucleus", 7],
+          ["Nucleus", 8]
+        ]
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,36 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+### EDUs
+1. [An observational study is one in which data is produced by naturally occurring processes]  
+2. [(we’ll call them data-generating processes, or DGPs)]  
+3. [and then collected by the researcher.]  
+4. [Crucially, the experimenter has no way to influence any of the variables.]  
+5. [The sad fact is that every observational study has potential confounding factors]  
+6. [and there’s simply no foolproof way to account for them all.]  
+7. [A controlled experiment, on the other hand, is one in which the researcher decides what the value of the independent variable will be for each object of study.]  
+8. [She normally does this randomly,]  
+9. [which is why this technique is called randomization.]  
+10. [The good news is that a controlled experiment automatically eliminates every possible confounding factor,]  
+11. [whether you thought of it or not.]  
+
+### RST Tree
+1. IN: [An observational study is one in which data is produced by naturally occurring processes]  
+   1.1. E-Elaboration: [(we’ll call them data-generating processes, or DGPs)]  
+   1.2. Joint - Conjunction:  
+       - [and then collected by the researcher.]  
+2. Background: [Crucially, the experimenter has no way to influence any of the variables.]  
+   2.1. Contrast:  
+       - N:  [The sad fact is that every observational study has potential confounding factors]  
+       - S:  [and there’s simply no foolproof way to account for them all.]  
+3. Contrast: [A controlled experiment, on the other hand, is one in which the researcher decides what the value of the independent variable will be for each object of study.]  
+   3.1. Elaboration: [She normally does this randomly,]  
+       3.1.1. Restatement: [which is why this technique is called randomization.]  
+   3.2. Justify: [The good news is that a controlled experiment automatically eliminates every possible confounding factor,]  
+       3.2.1. Evaluation: [whether you thought of it or not.]
+
+Overall Structure: 
+1. Joint: 1 + 2
+2. Joint: 1.2 + 2.1
+3. Sequence: 3
+4. Joint Relations between 1 + 3 (contrast of types of studies)
+5. Central Nucleus: 1 + 2 (main evaluation of observational vs controlled experiment)

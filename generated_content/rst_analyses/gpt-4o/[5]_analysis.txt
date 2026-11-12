@@ -1,0 +1,16 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+1. There are four essential components of computational thinking.
+2. Decomposition means breaking a problem down into more manageable parts so that solutions can be found for each.
+3. Pattern recognition is looking for similarities within a problem or with other problems so that past solutions or knowledge can be re-used.
+4. Algorithms mean developing step-by-step solutions to each part of the problem.
+5. Abstraction is generalising the important detail to make a solution reusable.
+
+RST Tree:
+- Joint
+  - N: EDU 1
+  - List
+    - N: EDU 2
+    - N: EDU 3
+    - N: EDU 4
+    - N: EDU 5

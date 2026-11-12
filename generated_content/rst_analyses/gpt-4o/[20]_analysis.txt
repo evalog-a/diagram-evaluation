@@ -1,0 +1,17 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDU 1: We may want to emphasize the distinction between "Monte Carlo" and "Las Vegas" type algorithms:
+EDU 2: Monte Carlo: Algorithm A always stops in time T(n);
+EDU 3: the output is a correct solution to problem Π with probability p.
+EDU 4: Las Vegas: Algorithm A stops in time T(n) with probability p;
+EDU 5: when it stops, the output is always a correct solution to problem Π.
+EDU 6: In the event that the algorithm did not meet its guarantees—in the case of a Las Vegas algorithm, it did not stop in time T(n),
+EDU 7: and in the case of Monte Carlo algorithms, it did not produce a correct output.
+
+RST Tree:
+1. List [EDU 2, EDU 4]
+2. Elaboration [EDU 3, EDU 2]
+3. Elaboration [EDU 5, EDU 4]
+4. Contrast [EDU 6, EDU 7]
+5. Background [EDU 1, List]
+6. Sequence [Contrast, Background]

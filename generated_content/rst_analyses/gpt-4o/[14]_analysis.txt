@@ -1,0 +1,17 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. [The 'await' block consists of three parts.]
+2. [The first part is given an expression that evaluates to a promise that is awaited.]
+3. [The content of the first part is shown when the promise has not yet been resolved.]
+4. [The second part is ':then', which has content that is shown if the promise successfully resolves.]
+5. [The third part is ':catch', which has content that is shown if there is an error when resolving the promise.]
+
+RST Tree:
+1. [The 'await' block consists of three parts.]N
+   - Elaboration
+     2. [The first part is given an expression that evaluates to a promise that is awaited.]N     
+     3. [The content of the first part is shown when the promise has not yet been resolved.]S
+   - List
+     4. [The second part is ':then', which has content that is shown if the promise successfully resolves.]N
+     5. [The third part is ':catch', which has content that is shown if there is an error when resolving the promise.]N

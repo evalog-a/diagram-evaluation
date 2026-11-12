@@ -1,0 +1,22 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+1. **EDUs**:
+   - [HTTP (HyperText Transfer Protocol) is the protocol used by browsers and servers for requests and responses.]
+   - [It built on top of the TCP/IP-protocol,]
+   - [which handles the underlying concerns]
+   - [such as (1) dividing requests into packets,]
+   - [(2) ensuring that packets arrive at the correct destination,]
+   - [(3) making sure that the content of the packets is correct,]
+   - [or (4) making sure that the message that the packets jointly build is correctly reconstructed.]
+
+2. **RST Tree**:
+   - **Elaboration**
+     - N: [HTTP (HyperText Transfer Protocol) is the protocol used by browsers and servers for requests and responses.]
+     - S: [It built on top of the TCP/IP-protocol,]
+       - **Elaboration (List)**
+         - N: [which handles the underlying concerns]
+         - S: [such as (1) dividing requests into packets,]
+           - **Conjunction/List**
+             - N1: [(2) ensuring that packets arrive at the correct destination,]
+             - N2: [(3) making sure that the content of the packets is correct,]
+             - N3: [or (4) making sure that the message that the packets jointly build is correctly reconstructed.]

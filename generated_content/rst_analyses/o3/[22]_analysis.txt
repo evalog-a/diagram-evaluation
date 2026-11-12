@@ -1,0 +1,19 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+[Contrast,
+  [Elaboration,
+    [Elaboration,
+      [E-Elaboration,
+        EDU1,
+        EDU2],               
+      EDU3],                 
+    [Elaboration,
+      EDU4,
+      EDU5]],                
+  [Result,
+    EDU9,
+    [Means,
+      EDU6,
+      [E-Elaboration,
+        EDU7,
+        EDU8]]]]

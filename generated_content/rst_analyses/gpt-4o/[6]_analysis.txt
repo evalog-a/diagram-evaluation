@@ -1,0 +1,31 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs: 
+1. Create a new copy of the main data file with today’s date as part of the file name.
+2. Move the previous version of the main data file to cloud storage.
+3. Save all the new data files individually to local storage with the device ID of each as part of the file names.
+4. Create a new weekly data file digest into which the daily digests from the different devices will be imported.
+5. Import each daily digest to that data file with an append command.
+6. Ensure that the device ID relating to each file’s data is written into a separate column.
+7. Append the weekly digest to the newly renamed main data file.
+8. Verify that no data is missing.
+9. For example, in OpenRefine, using Facet by Blank on the relevant data fields could be one way to verify that no data is missing.
+
+RST Tree:
+
+- Sequence
+  - N1: Create a new copy of the main data file with today’s date as part of the file name.
+  - N2: Move the previous version of the main data file to cloud storage.
+  - Sequence
+    - N3: Save all the new data files individually to local storage with the device ID of each as part of the file names.
+    - Sequence
+      - N4: Create a new weekly data file digest into which the daily digests from the different devices will be imported.
+      - Sequence
+        - N5: Import each daily digest to that data file with an append command.
+        - Sequence
+          - N6: Ensure that the device ID relating to each file’s data is written into a separate column.
+          - Sequence
+            - N7: Append the weekly digest to the newly renamed main data file.
+            - Elaboration
+              - N8: Verify that no data is missing.
+              - S9: For example, in OpenRefine, using Facet by Blank on the relevant data fields could be one way to verify that no data is missing.

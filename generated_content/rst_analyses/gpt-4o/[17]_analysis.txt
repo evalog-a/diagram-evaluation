@@ -1,0 +1,19 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+**EDUs:**
+
+1. A web application that allows interacting with a database consists of three parts: a client-side application, a server-side application, and a database.
+2. The client-side application provides a user interface and has the functionality to send requests to the server-side application and to display the responses to the user.
+3. The server-side application has API endpoints that the client-side application interacts with and that provide the functionality for communicating with the database.
+4. The database, typically, is a stand-alone software that can be interacted with.
+
+**RST Tree:**
+
+1. [Background: Nucleus 1 - Satellite (2-4)]
+   - 2. [Elaboration: Nucleus 2 - Satellite 3]
+   - 3. [Elaboration: Nucleus 2 - Satellite 4]
+
+- Nucleus 1: "A web application that allows interacting with a database consists of three parts: a client-side application, a server-side application, and a database."
+  - Satellite 2: "The client-side application provides a user interface and has the functionality to send requests to the server-side application and to display the responses to the user."
+    - Satellite 3: "The server-side application has API endpoints that the client-side application interacts with and that provide the functionality for communicating with the database."
+    - Satellite 4: "The database, typically, is a stand-alone software that can be interacted with."

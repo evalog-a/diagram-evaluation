@@ -1,0 +1,22 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. We will need to go through the following steps
+2. since the kernel cannot directly access the main memory of the CPU
+3. Allocate some GPU memory for the input and output
+4. Copy the input from the CPU memory to the GPU memory
+5. Launch the kernel
+6. Copy the result back from the GPU memory to the CPU memory
+7. Release the GPU memory that we allocated
+
+RST tree (nested parentheses show constituency; N = Nucleus, S = Satellite):
+Motivation
+ ├── N: Sequence
+ │     ├── N: 3
+ │     ├── N: 4
+ │     ├── N: 5
+ │     ├── N: 6
+ │     └── N: 7
+ └── S: Cause
+       ├── N: 1
+       └── S: 2

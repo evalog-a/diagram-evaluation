@@ -1,0 +1,26 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs
+1. All computers are started simultaneously
+2. they follow algorithm A synchronously in parallel
+3. In each synchronous communication round, all the computers in parallel send a message to each of their ports
+4. all the computers in parallel wait
+5. while the messages are propagated along the communication channels
+6. all the computers in parallel receive a message from each of their ports
+7. and all the computers in parallel update their own state
+
+RST tree (nested lists, first element = relation label, every child is preceded by its rhetorical role)
+["Background",
+  ["Satellite",
+    ["Conjunction",
+      ["Nucleus",1],
+      ["Nucleus",2]]],
+  ["Nucleus",
+    ["Sequence",
+      ["Nucleus",3],
+      ["Nucleus",
+        ["Circumstance",
+          ["Nucleus",4],
+          ["Satellite",5]]],
+      ["Nucleus",6],
+      ["Nucleus",7]]]]

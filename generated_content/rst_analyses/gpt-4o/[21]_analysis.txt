@@ -1,0 +1,43 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+Here's the RST analysis for the given text:
+
+- **EDUs**:
+  1. Everybody is familiar with the centuries old board game Snakes and Ladders,
+  2. which is an example of a Markov Chain.
+  3. In a nutshell, there is a board with a hundred and one numbered squares on it
+  4. (some of which are ‘snakes’ and ‘ladders’),
+  5. which can be considered states.
+  6. The game proceeds as follows.
+  7. Players advance from the start state of 0 by throwing dice
+  8. and using the numbers they obtain to move ahead to a new state
+  9. (with the equal probability of 1/6)
+  10. until they reach the terminal state of 100.
+  11. When moving to a new state,
+  12. they can advance to an ordinary state
+  13. or one of the two special states: ‘snakes’ or ‘ladders’.
+  14. If a player’s new state is the head of a snake,
+  15. they have to go backwards,
+  16. losing some of their advance.
+  17. If it is the base of a ladder,
+  18. they advance to the top of that ladder.
+
+- **RST Tree**:
+
+  1-2  [Background]  (1) (2) (S elaborates on a term in N)
+
+  3-5  [Elaboration]  (3) (4) [E-Elaboration]  (4) (5)
+
+  1-6  [Preparation]  (1-2) (3-5) (6)  (S prepares for N)
+
+  7-10 [Sequence]    (7) [Conjunction]  (7) (8) (9) (10)  (Nuclei describe the process)
+
+  6-10 [Explanation] (6) (7-10)  (N-S; game proceeds explanation)
+
+  11-18 [Condition]  (11) [Conjunction]  (11) [Contrast]  (12-13) [Antithesis]  (14-16) (17-18)
+                      (12) (13)   (Antithesis shows the conditions)
+                      (11 leads to 12/13, contrasting outcomes 14-18)
+
+  6-18 [Elaboration]  (6-10) (11-18)  (Explains game mechanics)
+
+  1-18 [Overall Prep] (1-6) (6-18)  (Describes the general understanding)

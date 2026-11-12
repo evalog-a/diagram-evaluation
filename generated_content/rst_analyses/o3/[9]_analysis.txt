@@ -1,0 +1,3 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+Reason( Satellite(1) , Nucleus( Elaboration( Nucleus( Purpose( Nucleus( Conjunction(3,4) ) , Satellite(2) ) ) , Satellite( List( Condition( Satellite(6) , Nucleus(5) ) , Condition( Satellite(7) , Nucleus(8) ) , Condition( Satellite(9) , Nucleus(10) ) ) ) ) ) )

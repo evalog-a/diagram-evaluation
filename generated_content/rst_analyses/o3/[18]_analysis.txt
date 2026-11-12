@@ -1,0 +1,42 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. Cross-site scripting (XSS) is a specific type of injection attack found in web applications.
+2. In XSS, the site allows an attacker a possibility of injecting client-side scripts into the application,
+3. which are then executed on other users' computers
+4. as they access the application.
+5. The starting point of an XSS attack is injecting code to the application.
+6. This can be done through, for example, a form or an API endpoint.
+7. Unlike SQL injection, XSS does not lead to the code being executed on the server,
+8. instead, it is simply stored.
+9. This results in the server compromising its users.
+10. Whenever a user requests content from the server that has the malicious code,
+11. the server responds to the request normally,
+12. by sending the content to the user.
+13. Now, when the user retrieves the content with the malicious code,
+14. the content will be processed by the browser
+15. and the code will be executed.
+16. This can, for example, lead to the browser crashing or to worse effects such as compromising content stored within the browser.
+
+RST tree (nested lists; first element = relation, N nuclei, S satellites):
+[Background,
+  [Sequence,               # central nuclei (chronological attack steps)
+    [Means,                # B
+      N:5,
+      S:6],
+    [Result,               # C (contrast → result)
+      [Contrast, N:7, N:8],
+      S:9],
+    [Condition,            # D
+      [Means, N:11, S:12],
+      S:10],
+    [Result,               # E
+      [Circumstance,
+        [Sequence, N:14, N:15],
+        S:13],
+      S:16]],
+  [Elaboration,            # introductory background on XSS
+    N:1,
+    [Result,
+      N:2,
+      [Circumstance, N:3, S:4]]]]

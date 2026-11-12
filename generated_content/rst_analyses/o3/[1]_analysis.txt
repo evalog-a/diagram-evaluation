@@ -1,0 +1,77 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+Preparation
+  Satellite:
+    Elaboration
+      Nucleus: [1] Domain Name Service (DNS) servers are a particular server type that help the internet function.
+      Satellite:
+        Contrast
+          Nucleus1: [2] The TCP/IP-protocol functions based on IP-addresses.
+          Nucleus2: [3] while server addresses in URIs can be written as text.
+  Nucleus:
+    Background
+      Satellite:
+        Elaboration
+          Nucleus:
+            Elaboration
+              Nucleus:
+                Circumstance
+                  Satellite: [4] When a request to an URI is made.
+                  Nucleus:  [5] the server address in the URI needs to be first resolved into an IP address.
+              Satellite:
+                Contrast
+                  Nucleus1:
+                    Condition
+                      Satellite: [6] If the server address is an IP address.
+                      Nucleus:   [7] no resolution needs to be made.
+                  Nucleus2: [8] Otherwise, the address needs to be looked up.
+          Satellite:
+            Background
+              Satellite: [9] Computers typically have a cache (a temporary memory) that contains recent visits to websites, storing both the text-based address and the corresponding IP address.
+              Nucleus:
+                Contrast
+                  Nucleus1:
+                    Condition
+                      Satellite: [10] If the address is within the cache.
+                      Nucleus:   [11] the resolution of the IP address happens locally on the computer.
+                  Nucleus2:
+                    Condition
+                      Satellite: [12] If the address is not in the cache, however.
+                      Nucleus:   [13] the address needs to be resolved using an external service.
+      Nucleus:
+        Preparation
+          Satellite: [14] Here, DNS servers come into play.
+          Nucleus:
+            Sequence
+              Nucleus1:
+                Circumstance
+                  Satellite: [15] Whenever an address needs to be resolved.
+                  Nucleus:  [16] the computer sends a message to a DNS server asking for a corresponding IP address.
+              Nucleus2:
+                Circumstance
+                  Satellite: [17] Once the DNS server returns the IP address.
+                  Nucleus:
+                    Sequence
+                      Nucleus1: [18] the computer stores the IP address into its cache.
+                      Nucleus2: [19] and then continues by sending the message to the actual IP address.
+
+EDU list:
+1. Domain Name Service (DNS) servers are a particular server type that help the internet function.
+2. The TCP/IP-protocol functions based on IP-addresses.
+3. while server addresses in URIs can be written as text.
+4. When a request to an URI is made.
+5. the server address in the URI needs to be first resolved into an IP address.
+6. If the server address is an IP address.
+7. no resolution needs to be made.
+8. Otherwise, the address needs to be looked up.
+9. Computers typically have a cache (a temporary memory) that contains recent visits to websites, storing both the text-based address and the corresponding IP address.
+10. If the address is within the cache.
+11. the resolution of the IP address happens locally on the computer.
+12. If the address is not in the cache, however.
+13. the address needs to be resolved using an external service.
+14. Here, DNS servers come into play.
+15. Whenever an address needs to be resolved.
+16. the computer sends a message to a DNS server asking for a corresponding IP address.
+17. Once the DNS server returns the IP address.
+18. the computer stores the IP address into its cache.
+19. and then continues by sending the message to the actual IP address.

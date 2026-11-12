@@ -1,0 +1,58 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. Write a script that loops through the gapminder data by continent
+2. and prints out whether the mean life expectancy is smaller or larger than 50 years
+3. We want to make sure we can extract all the unique values of the continent vector
+4. We also need to loop over each of these continents and calculate the average life expectancy for each subset of data
+5. We can do that as follows
+6. Loop over each of the unique values of continent
+7. For each value of continent, create a temporary variable storing that subset
+8. Return the calculated life expectancy to the user by printing the output
+9. The exercise only wants the output printed if the average life expectancy is less than 50 or greater than 50
+10. So we need to add an if() condition before printing
+11. which evaluates whether the calculated average life expectancy is above or below a threshold
+12. and prints an output conditional on the result
+13. We need to amend (3) from above
+14. If the calculated life expectancy is less than some threshold (50 years), return the continent and a statement that life expectancy is less than threshold
+15. otherwise return the continent and a statement that life expectancy is greater than threshold
+
+RST Tree:
+(Enablement
+  (Nucleus
+    (Conjunction
+      (Nucleus EDU1)
+      (Nucleus EDU2)))
+  (Satellite
+    (Sequence
+      (Nucleus EDU3)
+      (Nucleus
+        (Elaboration
+          (Nucleus EDU4)
+          (Satellite
+            (Preparation
+              (Satellite EDU5)
+              (Nucleus
+                (Sequence
+                  (Nucleus EDU6)
+                  (Nucleus EDU7)
+                  (Nucleus EDU8))))))
+      (Nucleus
+        (Sequence
+          (Nucleus
+            (Reason
+              (Satellite EDU9)
+              (Nucleus
+                (Elaboration
+                  (Nucleus EDU10)
+                  (Satellite
+                    (Conjunction
+                      (Nucleus EDU11)
+                      (Nucleus EDU12))))))
+          (Nucleus
+            (Elaboration
+              (Nucleus EDU13)
+              (Satellite
+                (Contrast
+                  (Nucleus EDU14)
+                  (Nucleus EDU15))))))))))

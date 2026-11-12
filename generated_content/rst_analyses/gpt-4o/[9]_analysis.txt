@@ -1,0 +1,29 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+- [One of your collaborators prefers to see the distributions of the larger vectors as a histogram instead of as a boxplot.]
+- [In order to choose between a histogram and a boxplot]
+  - [we will edit the function plot_dist]
+  - [and add an additional argument use_boxplot.]
+- [By default we will set use_boxplot to TRUE]
+  - [which will create a boxplot when the vector is longer than threshold.]
+- [When use_boxplot is set to FALSE,]
+  - [plot_dist will instead plot a histogram for the larger vectors.]
+- [If the length of the vector is shorter than threshold,]
+  - [plot_dist will create a stripchart.]
+
+- Joint
+  - Antithesis
+    - Nucleus: [One of your collaborators prefers to see the distributions of the larger vectors as a histogram instead of as a boxplot.]
+    - Satellite: [In order to choose between a histogram and a boxplot]
+      - Conjunction
+        - Nucleus: [we will edit the function plot_dist]
+        - Nucleus: [and add an additional argument use_boxplot.]
+  - Elaboration
+    - Nucleus: [By default we will set use_boxplot to TRUE]
+    - Satellite: [which will create a boxplot when the vector is longer than threshold.]
+  - Condition
+    - Nucleus: [When use_boxplot is set to FALSE,]
+    - Satellite: [plot_dist will instead plot a histogram for the larger vectors.]
+  - Condition
+    - Nucleus: [If the length of the vector is shorter than threshold,]
+    - Satellite: [plot_dist will create a stripchart.]

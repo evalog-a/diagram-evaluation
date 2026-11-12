@@ -1,0 +1,26 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. There are four essential components of computational thinking.
+2. Decomposition (also called factoring) means breaking a problem down into more manageable parts
+3. so that solutions can be found for each.
+4. Pattern recognition is looking for similarities within a problem or with other problems
+5. so that past solutions or knowledge can be re-used.
+6. Algorithms mean developing step-by-step solutions to each part of the problem.
+7. Abstraction is generalising (abstracting) the important detail
+8. to make a solution reusable.
+
+RST tree (nested brackets = constituents):
+Preparation
+  Satellite: 1
+  Nucleus: List
+    ├── Purpose
+    │     Nucleus: 2
+    │     Satellite: 3
+    ├── Purpose
+    │     Nucleus: 4
+    │     Satellite: 5
+    ├── 6
+    └── Purpose
+          Nucleus: 7
+          Satellite: 8

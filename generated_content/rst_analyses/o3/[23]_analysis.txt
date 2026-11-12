@@ -1,0 +1,37 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs
+1. In the supervised setting, our most common machine learning activities will be classification and regression.
+2. In each one, our job is to predict the value of the target attribute for a new object,
+3. based on the previous example objects we’ve seen.
+4. The only difference is the scale of measure of the target variable:
+5. if it’s categorical,
+6. we’re performing classification,
+7. our goal is to build a classifier:
+8. an algorithm that can classify future examples by guessing their target value.
+9. If the target variable is numeric,
+10. then we have regression,
+11. and our goal is to make the closest guess we can to the true target value.
+
+RST tree  (nested list notation)
+["Background",                                     # root
+    ["Elaboration", 4,                             # nucleus = EDU 4
+        ["Contrast",                                # satellite = the two alternative cases
+            ["Condition",                           # classification case
+                ["Conjunction",                    # nucleus of Condition
+                    6,
+                    ["E-Elaboration", 7, 8]        # definition of classifier
+                ],
+                5                                   # satellite Condition clause
+            ],
+            ["Condition",                           # regression case
+                ["Conjunction", 10, 11],           # nucleus of Condition
+                9                                   # satellite Condition clause
+            ]
+        ]
+    ],
+    ["Background",                                  # satellite of the root
+        ["Means", 2, 3],                           # explanation of the basic task
+        1                                           # general introductory sentence
+    ]
+]

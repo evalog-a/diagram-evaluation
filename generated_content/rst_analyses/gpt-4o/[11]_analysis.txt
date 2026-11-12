@@ -1,0 +1,46 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+## EDUs
+
+1. Informally, the algorithm proceeds as follows.
+2. For each node u, its state s(u) alternates between 1 and 0,
+3. initially, s(u) ← 1 and c(u) ← ⊥:
+4. When s(u) = 1, the node receives the set of messages M(u),
+5. it then decides with probability 0.5 to be passive and set c(u) = ⊥
+6. or to be active and pick a random color c(u) ∈ F(u),
+7. where F(u) = C(u)\M(u) is the set of free colors.
+8. Next, it sets s(u) ← 0.
+9. When s(u) = 0, the node receives the set of messages M(u),
+10. it then verifies its choice.
+11. If the current color c(u) conflicts with one of the neighbors (c(u) ∈ M(u)),
+12. we go back to the initial state s(u) ← 1 and c(u) ← ⊥.
+13. However, if we were lucky and managed to pick a color that does not conflict with any of our neighbors,
+14. we keep the current value of c(u)
+15. and switch to the stopping state s(u) = 1 and c(u) ̸= ⊥.
+
+## RST Tree Structure
+
+- N: 1
+  - Preparation
+    - S: 2
+    - N: 3
+      - Sequence
+        - N: 4
+          - Elaboration
+            - S: 5
+            - N: 6
+              - E-Elaboration
+                - S: 7
+        - N: 8
+        - N: 9
+          - Sequence
+            - N: 10
+            - N: 11
+              - Condition
+                - S: 11
+                - N: 12
+            - Contrast
+              - N: 13
+                - Sequence
+                  - N: 14
+                  - N: 15

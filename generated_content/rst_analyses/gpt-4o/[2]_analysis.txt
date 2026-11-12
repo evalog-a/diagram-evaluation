@@ -1,0 +1,34 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+
+EDUs:
+
+1. [We will need to go through the following steps]  
+2. [since the kernel cannot directly access the main memory of the CPU]  
+3. [(it can only access the memory of the GPU):]  
+4. [Allocate some GPU memory for the input and output.]  
+5. [Copy the input from the CPU memory to the GPU memory.]  
+6. [Launch the kernel.]  
+7. [Copy the result back from the GPU memory to the CPU memory.]  
+8. [Release the GPU memory that we allocated.]
+
+RST Tree:
+
+1. Background
+   1.1. Condition
+        1.1.1. Nucleus: EDU 1
+        1.1.2. Satellite: EDU 2
+   1.2. Elaboration
+        1.2.1. Nucleus: EDU 3
+        1.2.2. List
+             1.2.2.1. Nucleus: EDU 4
+             1.2.2.2. Nucleus: EDU 5
+             1.2.2.3. Nucleus: EDU 6
+             1.2.2.4. Nucleus: EDU 7
+             1.2.2.5. Nucleus: EDU 8
+
+Explanation:
+- EDU 2 provides a reason for EDU 1, forming a Condition relation.
+- EDU 3 provides context for the steps listed in EDUs 4-8, forming a Background relation.
+- EDUs 4-8 are part of a list elaborating on the necessary steps mentioned in EDU 1, forming an Elaboration relation with a List structure. The kernel access information (EDU 3) summarizes why these steps are required.
+- The List is a multinuclear relation, indicating the actions are of equal importance and necessity.

@@ -1,0 +1,19 @@
+Disclaimer: This text is generated with the o3 language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+EDUs:
+1. The filesystem looks like an upside down tree.
+2. The topmost directory is the root directory that holds everything else.
+3. We refer to it using a slash character, /.
+4. Inside the root directory are several other directories: bin (which is where some built-in programs are stored), data (for miscellaneous data files), Users (where users’ personal directories are located), tmp (for temporary files that don’t need to be stored long-term).
+
+RST tree (bracketed list form):
+[Background
+    [Nucleus 4]
+    [Satellite
+        [Background
+            [Nucleus
+                [Elaboration
+                    [Nucleus 2]
+                    [Satellite 3]]]
+            [Satellite 1]]]
+]

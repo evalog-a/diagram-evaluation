@@ -1,0 +1,5 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+## RSTResponse
+
+{"rst_tree":"**EDUs:**\n1. Web frameworks introduced a structured flow for handling web requests.\n2. In essence, when a request is received, it is mapped to a route, which is then processed by a controller.\n3. The controller interacts with a repository layer to perform database operations,\n4. and the resulting data is returned to the controller.\n5. The response is then formatted (e.g., as HTML or JSON)\n6. and sent back to the client.\n\n**RST Tree:**\n1. [1] Nucleus\n2. [2-6] Background to [1] (Detailing the structured flow)\n   1. [2-6] Sequence\n      1. [2] Nucleus\n      2. [3-4] Elaboration to [2]\n         1. [3] Nucleus\n         2. [4] Satellite\n      3. [5-6] List (Describing formatting and sending response)\n         1. [5] Nucleus\n         2. [6] Nucleus"}

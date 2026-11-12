@@ -1,0 +1,36 @@
+Disclaimer: This text is generated with the gpt-4o language model.
+ The model uses the following paper to generate its output: Stede, Manfred, Maite Taboada, and Debopam Das. 'Annotation guidelines for rhetorical structure.' Manuscript. University of Potsdam and Simon Fraser University (2017).
+
+## EDUs
+1. TCP, like most connection-oriented transport protocols, supports two types of connection release.
+2. Graceful connection release, where each TCP user can release its own direction of data transfer. 
+3. Abrupt connection release, where either one user closes both directions of data transfer or one TCP entity is forced to close the connection.
+4. (i.e., because the remote host does not reply anymore or due to lack of resources)
+5. The abrupt connection release mechanism is very simple and relies on a single segment having the RST bit set.
+6. A TCP segment containing the RST bit can be sent for the following reasons:
+7. A non-SYN segment was received for a non-existing TCP connection RFC 793.
+8. By extension, some implementations respond with an RST segment to a segment that is received on an existing connection but with an invalid header RFC 3360.
+9. This causes the corresponding connection to be closed and has caused security attacks RFC 4953.
+10. By extension, some implementations send an RST segment when they need to close an existing TCP connection.
+11. (e.g., because there are not enough resources to support this connection or because the remote host is considered to be unreachable)
+12. Measurements have shown that this usage of TCP RST was widespread.
+
+## RST Tree
+1 [2] 2: Elaboration
+1 [3] 3: Elaboration
+3 [4] 4: Circumstance
+1 [5] 5: Elaboration
+5 [6] 6: List
+7 [8] 8: Joint
+8 [9] 9: Result
+10 [11] 11: Circumstance
+5 [12] 12: Evidence
+
+## Explanation
+- EDU 1 introduces the types of connection release supported by TCP and is elaborated by EDUs 2 and 3.
+- EDU 3 contains circumstances specified by EDU 4.
+- EDU 5 explains the mechanism for abrupt connection release and is elaborated by EDU 6, which acts as a list of reasons for RST segments.
+- EDU 7 introduces one reason, and EDUs 8 and 10 are additional, connected explanations (Joint).
+- EDU 8 results in security issues mentioned in EDU 9.
+- EDU 10 has circumstances detailed in EDU 11.
+- EDU 12 provides evidence for the widespread usage mentioned in EDU 5.
